@@ -85,6 +85,8 @@ p {
 
 p.about {
   line-height: 25px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 a.contact {

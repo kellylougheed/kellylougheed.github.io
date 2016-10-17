@@ -85,12 +85,11 @@
       </div>
 </div><!-- work -->
 
-<!-- <h1>About</h1>
+<h1>About</h1>
 <div class="break"></div>
 <br/>
-<p class="about">Short bio.</p> -->
-
-<br/>
+<p class="about">I'm a web developer currently interning at a software company in the greater Los Angeles area. My work is primarily in Ruby on Rails and JavaScript. As a former Latin teacher and Brown University Classics grad, I particularly enjoy building technology that relates to education or the humanities.</p>
+<br/><br/>
 
 <div class="footer">
   
