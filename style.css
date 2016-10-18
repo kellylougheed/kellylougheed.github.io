@@ -6,7 +6,6 @@ body {
   color: #000000;
   font-family: 'Raleway';
   font-weight: 100;
-  font-weight: 100;
   letter-spacing: 2px;
   margin: 0;
 }
@@ -14,7 +13,6 @@ body {
 div.header {
   background: url(http://www.kellylougheed.com/images/backgrounds/me.jpg) no-repeat center center fixed; 
   background-size: cover;
-  background-position: center;
   height: 100%;
   width: 100%;
   position: relative;
@@ -282,6 +280,14 @@ div.footer a:hover {
 
 /********** Small devices **********/
 @media (max-width: 767px) {
+
+  div.header {
+    background-attachment: scroll;
+    background-position: top;
+-webkit-background-size: auto;
+-moz-background-size: auto;
+background-size: auto;
+  }
 
   div.intro {
     padding-top: 5px;
