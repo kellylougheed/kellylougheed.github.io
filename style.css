@@ -11,8 +11,9 @@ body {
 }
 
 div.header {
-  background: url(http://www.kellylougheed.com/images/backgrounds/me.jpg) no-repeat center center fixed; 
+  background: url(http://www.kellylougheed.com/images/backgrounds/me.jpg); 
   background-size: cover;
+  background-position: center;
   height: 100%;
   width: 100%;
   position: relative;
@@ -152,8 +153,9 @@ a:hover {
 }
 
 div.footer {
-  background: url(http://www.kellylougheed.com/images/backgrounds/vineyard.jpg)  no-repeat center center fixed;
+  background: url(http://www.kellylougheed.com/images/backgrounds/vineyard.jpg);
   background-size: cover;
+  background-position: center;
   height: 300px;
   position: relative;
 }
@@ -280,14 +282,6 @@ div.footer a:hover {
 
 /********** Small devices **********/
 @media (max-width: 767px) {
-
-  div.header {
-    background-attachment: scroll;
-    background-position: top;
--webkit-background-size: auto;
--moz-background-size: auto;
-background-size: auto;
-  }
 
   div.intro {
     padding-top: 5px;
