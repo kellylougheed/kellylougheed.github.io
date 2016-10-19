@@ -38,7 +38,8 @@
         <p><span class="title">Book Porn</span><br/>
         Ruby on Rails • HTML • CSS • Bootstrap<br/>
         <span class="descr">Instagram clone for pictures of books.</span><br/>
-        <span class="links"><a href="https://github.com/kellylougheed/book-porn" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+        <span class="links"><a href="http://kellylougheed.com/blog/firehose-week-7-bookish-grammable-app/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></a>&nbsp;&nbsp;
+        <a href="https://github.com/kellylougheed/book-porn" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
