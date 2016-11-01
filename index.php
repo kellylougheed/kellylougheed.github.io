@@ -31,40 +31,51 @@
 <div class="break black"></div>
 <br/>
 
+<p class="about">My mission as a web developer is to promote the humanities and enrich the educational experience through technology. My work focuses on Latin, literature, and teaching and primarily uses Ruby on Rails and JavaScript.</p>
+<br/><br/>
+
 <div class="container">
 
         <div class="col-lg-4 col-md-6 col-sm-12">
-        <a href="http://book-porn.herokuapp.com/" target="_blank"><img src="http://www.kellylougheed.com/images/projects/bookporn.png" class="responsive" alt="Ruby on Rails Instagram clone for pictures of books"></a>
-        <p><span class="title">Book Porn</span><br/>
-        Ruby on Rails • HTML • CSS • Bootstrap<br/>
-        <span class="descr">Instagram clone for pictures of books.</span><br/>
-        <span class="links"><a href="http://kellylougheed.com/blog/firehose-week-7-bookish-grammable-app/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/book-porn" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+        <a href="http://facta.herokuapp.com/" target="_blank"><img src="http://www.kellylougheed.com/images/projects/facta.png" class="responsive" alt="Ruby on Rails generator of fun facts about ancient Rome"></a>
+        <p><span class="title">Facta</span><br/>
+        Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
+        <span class="descr">User-regulated fun facts about ancient Rome.</span><br/>
+        <span class="links"><a href="https://github.com/kellylougheed/facta" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
         <a href="http://participation.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/participation.png" class="responsive" alt="Ruby on Rails student participation gradebook app for teachers"></a>
         <p><span class="title">Participation</span><br/>
-        Ruby on Rails • JavaScript • jQuery • HTML • CSS • Bootstrap<br/>
+        Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
         <span class="descr">Gradebook app for teachers to track student participation.</span><br/>
         <span class="links"><a href="https://github.com/kellylougheed/participation" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
-        <p><span class="title">This is Just To Say</span><br/>
-        PHP • JavaScript • jQuery • HTML • CSS<br/>
-        <span class="descr">Writes and mails a poem to apologize for eating your roommate's food.</span><br/>
-        <span class="links"><a href="http://kellylougheed.com/blog/says-computers-cant-write-poetry/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/this-is-just-to-say" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+        <a href="http://device-o.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/deviceo.png" class="responsive" alt="Game to quiz students on literary devices"></a>
+        <p><span class="title">Device-O!</span><br/>
+        Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
+        <span class="descr">Game to quiz students on literary devices for AP English or AP Latin.</span><br/>
+        <span class="links"><a href="https://github.com/kellylougheed/device-o" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/weather-app" target="_blank"><img src="http://www.kellylougheed.com/images/projects/weatherapp.png" class="responsive" alt="JavaScript weather app with APIs"></a>
-        <p><span class="title">Weather App</span><br/>
-        JavaScript • jQuery • HTML • CSS<br/>
-        <span class="descr">Reports local weather using APIs for location and weather.</span><br/>
-        <span class="links"><a href="https://github.com/kellylougheed/weather-app" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+        <a href="http://www.kellylougheed.com/roman/practice" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="PHP poetry-writing app"></a>
+        <p><span class="title">Roman Numeral Quiz</span><br/>
+        JavaScript • HTML • CSS<br/>
+        <span class="descr">App to quiz students on Roman numerals.</span><br/>
+        <span class="links"><a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
 
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
+        <p><span class="title">This is Just To Say</span><br/>
+        PHP • JavaScript • HTML • CSS<br/>
+        <span class="descr">Writes and mails a poem to apologize for eating your roommate's food.</span><br/>
+        <span class="links"><a href="http://kellylougheed.com/blog/says-computers-cant-write-poetry/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/this-is-just-to-say" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+        </div>
+        
         <div class="col-lg-4 col-md-6 col-sm-12">
         <a href="http://thinkyouknowlatin.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/latin.png" class="responsive" alt="Ruby on Rails Latin app"></a>
         <p><span class="title">So You Think You Know Latin</span><br/>
@@ -73,22 +84,13 @@
         <span class="links"><a href="http://kellylougheed.com/blog/fhp-week-1-an-educational-splurty-app/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/think-you-know-latin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/calculator" target="_blank"><img src="http://www.kellylougheed.com/images/projects/calculator.png" class="responsive" alt="JavaScript calculator"></a>
-        <p><span class="title">Calculator</span><br/>
-        JavaScript • jQuery • HTML • CSS<br/>
-        <span class="descr">Uses order of operations to solve equations.</span><br/>
-        <span class="links"><a href="https://github.com/kellylougheed/calculator" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-        </div>
-
-
       </div>
 </div><!-- work -->
 
 <h1>About</h1>
 <div class="break"></div>
 <br/>
-<p class="about">I'm a web developer currently interning at a software company in the greater Los Angeles area. My work is primarily in Ruby on Rails and JavaScript. As a former Latin teacher and Brown University Classics grad, I particularly enjoy building technology that relates to education or the humanities.</p>
+<p class="about">I'm a California native who's been making websites since third grade. Before becoming a web developer, I graduated from Brown University with a Classics degree and taught Latin for three years in Arizona, Florida, and Rome. When I realized that technology was the key to making broader social change, I attended coding bootcamp and interned at a software company in the greater Los Angeles area. My interests are Ruby on Rails, JavaScript, and ed tech.</p>
 <br/><br/>
 
 <div class="footer">
