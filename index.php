@@ -31,7 +31,7 @@
 <div class="break black"></div>
 <br/>
 
-<p class="about">My mission as a web developer is to promote the humanities and enrich the educational experience through technology. My work focuses on Latin, literature, and teaching and primarily uses Ruby on Rails and JavaScript.</p>
+<p class="about">My mission as a web developer is to enrich the educational experience through technology. My previous experience as a Latin teacher inspires many of my projects, which are built in Ruby on Rails and JavaScript.</p>
 <br/><br/>
 
 <div class="container">
@@ -90,7 +90,7 @@
 <h1>About</h1>
 <div class="break"></div>
 <br/>
-<p class="about">I'm a California native who's been making websites since third grade. Before becoming a web developer, I graduated from Brown University with a Classics degree and taught Latin for three years in Arizona, Florida, and Rome. When I realized that technology was the key to making broader social change, I attended coding bootcamp and interned at a software company in the greater Los Angeles area. My interests are Ruby on Rails, JavaScript, and ed tech.</p>
+<p class="about">I'm a California native who's been making websites since third grade. Before becoming a web developer, I graduated from Brown University with a Classics degree and taught Latin for three years in Arizona, Florida, and Rome. When I realized how powerfully technology could enhance education and effect social change, I attended coding bootcamp and interned at a software company in the greater Los Angeles area. My interests are Ruby on Rails, JavaScript, and ed tech.</p>
 <br/><br/>
 
 <div class="footer">
