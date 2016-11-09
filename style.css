@@ -60,6 +60,24 @@ div.intro h2 {
   text-shadow: 1px 2px #000000;
 }
 
+@keyframes pulse {
+  0% {
+    font-size: 4em;
+  }
+  100% {
+    font-size: 5em;
+  }
+}
+
+@-webkit-keyframes {
+  0% {
+    font-size: 4em;
+  }
+  100% {
+    font-size: 5em;
+  }
+}
+
 div.down {
   width: 100%;
   text-align: center;
@@ -67,6 +85,8 @@ div.down {
   position: absolute;
   font-size: 4em;
   text-shadow: 1px 2px #000000;
+  animation: pulse 1.5s 1s infinite linear alternate;
+  -webkit-animation: pulse 1.5s 1s infinite linear alternate;
 }
 
 div.down a {
