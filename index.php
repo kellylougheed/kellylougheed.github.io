@@ -31,7 +31,7 @@
 <div class="break black"></div>
 <br/>
 
-<p class="about">My mission as a web developer is to enrich the educational experience through technology. My previous experience as a Latin teacher inspires many of my projects, which are built in Ruby on Rails and JavaScript.</p>
+<p class="about">I build full-stack web applications in JavaScript and Ruby on Rails. Many of my projects are inspired by my previous career as a Latin teacher.</p>
 <br/><br/>
 
 <div class="container">
@@ -63,7 +63,7 @@
         <div class="col-lg-4 col-md-6 col-sm-12">
         <a href="http://www.kellylougheed.com/roman/practice" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="PHP poetry-writing app"></a>
         <p><span class="title">Roman Numeral Quiz</span><br/>
-        JavaScript • HTML • CSS<br/>
+        AngularJS • HTML • CSS<br/>
         <span class="descr">App to quiz students on Roman numerals.</span><br/>
         <span class="links"><a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
         </div>
@@ -90,7 +90,7 @@
 <h1>About</h1>
 <div class="break"></div>
 <br/>
-<p class="about">I'm a California native who's been making websites since third grade. Before becoming a web developer, I graduated from Brown University with a Classics degree and taught Latin for three years in Arizona, Florida, and Rome. When I realized how powerfully technology could enhance education and effect social change, I attended coding bootcamp and interned at a software company in the greater Los Angeles area. My interests are Ruby on Rails, JavaScript, and ed tech.</p>
+<p class="about">I'm a California native who's been making websites since third grade. Before becoming a web developer, I graduated from Brown University with a Classics degree and taught Latin for three years in Arizona, Florida, and Rome. When I realized how powerfully technology could enhance education and effect social change, I attended coding bootcamp and interned at a software company in the greater Los Angeles area. I’m skilled in Ruby on Rails and JavaScript and have a special interest in ed tech.</p>
 <br/><br/>
 
 <div class="footer">
