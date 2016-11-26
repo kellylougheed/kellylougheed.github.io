@@ -30,7 +30,7 @@
       <p><span class="title">Facta</span><br/>
       Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
       <span class="descr">User-regulated fun facts about ancient Rome.</span><br/>
-      <span class="links"><a href="https://github.com/kellylougheed/facta" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+      <span class="links"><a href="http://kellylougheed.com/blog/building-intellectually-responsible-roman-history-facts-app/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/facta" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
