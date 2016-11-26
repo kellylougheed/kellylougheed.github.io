@@ -60,7 +60,7 @@ div.intro h2 {
   text-shadow: 1px 2px #000000;
 }
 
-@keyframes pulse {
+/*@keyframes pulse {
   0% {
     font-size: 4em;
   }
@@ -76,7 +76,7 @@ div.intro h2 {
   100% {
     font-size: 5em;
   }
-}
+}*/
 
 div.down {
   width: 100%;
