@@ -46,7 +46,7 @@
       <p><span class="title">Device-O!</span><br/>
       Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
       <span class="descr">Game to quiz students on literary devices for AP English or AP Latin.</span><br/>
-      <span class="links"><a href="https://github.com/kellylougheed/device-o" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+      <span class="links"><a href="http://kellylougheed.com/blog/app-takes-english-class-seriously/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/device-o" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
