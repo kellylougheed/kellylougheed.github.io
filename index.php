@@ -22,7 +22,7 @@
   <h1>Work</h1>
   <div class="break black"></div>
   <br/>
-  <p class="about">I build full-stack web applications in JavaScript and Ruby on Rails. Many of my projects are inspired by my previous career as a Latin teacher.</p>
+  <p class="about">I build full-stack web applications in Ruby on Rails and JavaScript. Many of my projects are inspired by my previous career as a Latin teacher.</p>
   <br/><br/>
   <div class="container">
     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -78,7 +78,7 @@
 <h1>About</h1>
 <div class="break"></div>
 <br/>
-<p class="about">I'm a California native who's been making websites since third grade. Before becoming a web developer, I graduated from Brown University with a Classics degree and taught Latin for three years in Arizona, Florida, and Rome. When I realized how powerfully technology could enhance education and effect social change, I attended coding bootcamp and interned at a software company in the greater Los Angeles area. I’m skilled in JavaScript, PHP, and Ruby on Rails and have a special interest in ed tech.</p>
+<p class="about">I'm a California native who's been making websites since third grade. Currently, my skill set is centered around Ruby on Rails, JavaScript, and PHP. I enjoy debugging server-side scripts as much as styling websites, and I have experience building sites and applications in the workplace and remotely. While studying Classics at Brown University, I developed a knack for languages (human &amp; computer) and excellent communication skills. My previous career as a Latin teacher also gives me a special interest in ed tech.</p>
 <br/><br/>
 
 <div class="footer">
