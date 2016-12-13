@@ -66,11 +66,11 @@
     </div>
         
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <a href="http://thinkyouknowlatin.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/latin.png" class="responsive" alt="Ruby on Rails Latin app"></a>
-      <p><span class="title">So You Think You Know Latin</span><br/>
-      Ruby on Rails • HTML • CSS • Bootstrap<br/>
-      <span class="descr">Teacher tool that generates exercises for Latin class.</span><br/>
-      <span class="links"><a href="http://kellylougheed.com/blog/fhp-week-1-an-educational-splurty-app/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/think-you-know-latin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+      <a href="http://www.kellylougheed.com/calculator" target="_blank"><img src="http://www.kellylougheed.com/images/projects/calculator.png" class="responsive" alt="JavaScript calculator"></a>
+      <p><span class="title">Calculator</span><br/>
+      JavaScript • jQuery • HTML • CSS<br/>
+      <span class="descr">Calculator that uses order of operators to solve equations.</span><br/>
+      <span class="links"><a href="https://github.com/kellylougheed/calculator" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
   </div><!-- container -->
 </div><!-- work -->
