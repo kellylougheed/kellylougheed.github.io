@@ -38,7 +38,7 @@
       <a href="http://www.kellylougheed.com/roman" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="AngularJS Roman numeral quiz app"></a>
       <p><span class="title">Roman Numeral Quiz</span><br/>
       AngularJS • HTML • CSS<br/>
-      <span class="descr">App to quiz students on Roman numerals.</span><br/>
+      <span class="descr">Single-page application to quiz students on Roman numerals and record their progress.</span><br/>
       <span class="links"><a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
