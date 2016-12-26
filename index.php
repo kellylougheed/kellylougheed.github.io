@@ -39,7 +39,7 @@
       <p><span class="title">Roman Numeral Quiz</span><br/>
       AngularJS • HTML • CSS<br/>
       <span class="descr">Single-page application to quiz students on Roman numerals and record their progress.</span><br/>
-      <span class="links"><a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+      <span class="links"><a href="http://kellylougheed.com/blog/angularjs-ever-done/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
