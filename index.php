@@ -31,7 +31,7 @@
       <p><span class="title">Participation</span><br/>
       Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
       <span class="descr">Gradebook app for teachers to track student participation.</span><br/>
-      <span class="links"><a href="https://github.com/kellylougheed/participation" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+      <span class="links"><a href="http://kellylougheed.com/blog/participation-points-real/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/participation" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
