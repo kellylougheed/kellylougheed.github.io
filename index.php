@@ -6,40 +6,55 @@
   <title>Kelly Lougheed</title>
   <script src="https://use.fontawesome.com/ee14bb1f23.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="header">
     <div class="intro">
       <h1>Kelly Lougheed</h1>
-      <div class="break"></div>
-      <h2>Web Developer | Los Angeles, CA</h2>
-      <p> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
+      <h2>Software Engineer | Educator<br/>
+      Los Angeles, CA</h2>
+      <p><a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
-  <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+    <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
   </div><!-- header -->
 <div id="work">
   <h1>Work</h1>
-  <div class="break black"></div>
-  <br/>
-  <p class="about">I build full-stack web applications in Ruby on Rails and JavaScript. Many of my projects are inspired by my previous career as a Latin teacher.</p>
-  <br/><br/>
   <div class="container"> 
 
-    <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="col-lg-6 col-md-6 col-sm-12">
       <a href="http://participation.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/participation.png" class="responsive" alt="Rails student participation gradebook app for teachers"></a>
-      <p><span class="title">Participation</span><br/>
-      Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
-      <span class="descr">Gradebook app for teachers to track student participation.</span><br/>
-      <span class="links"><a href="http://kellylougheed.com/blog/participation-points-real/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/participation" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
-    <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <h2>Participation</h2>
+      <ul>
+        <li> Gradebook app for high school teachers.</li>
+        <li> Teachers can input their rosters and track participation points for each student.</li>
+        <li> Teachers can record comments about students to use in report cards &amp; parent-teacher conferences.</li>
+        <li> Built with Ruby on Rails, JavaScript, HTML/CSS. Security managed by Devise.</li>
+        <li> The code is <a href="https://github.com/kellylougheed/participation" target="_blank">open-source on GitHub</a> and has 100% test coverage. </li>
+        <li> Read the blog post about the story and philosophy behind the app, <a href="http://kellylougheed.com/blog/participation-points-real/" target="_blank">Your Participation Points Are Real</a>. </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <br/>
+      <h2>Roman Numeral Quiz</h2>
+      <ul>
+        <li> App to quiz students on Roman numerals.</li>
+        <li> Students convert Arabic numerals to Roman numerals and receive instant feedback.</li>
+        <li> The app tracks the student's history of correct and incorrect answers.</li>
+        <li> Includes suggestions for use in the classroom.</li>
+        <li> Built with AngularJS, JavaScript, and HTML/CSS.</li>
+        <li> The code is <a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank">open-source on GitHub</a>.</li>
+        <li> Read the blog post converting the app from vanilla JavaScript and jQuery to the AngularJS framework: <a href="http://kellylougheed.com/blog/angularjs-ever-done/" target="_blank">What Has AngularJS Ever Done For Me?</a> </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
       <a href="http://www.kellylougheed.com/roman" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="AngularJS Roman numeral quiz app"></a>
-      <p><span class="title">Roman Numeral Quiz</span><br/>
-      AngularJS • HTML • CSS<br/>
-      <span class="descr">Single-page application to quiz students on Roman numerals and record their progress.</span><br/>
-      <span class="links"><a href="http://kellylougheed.com/blog/angularjs-ever-done/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -51,11 +66,11 @@
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <a href="http://facta.herokuapp.com/" target="_blank"><img src="http://www.kellylougheed.com/images/projects/facta.png" class="responsive" alt="Rails generator of fun facts about ancient Rome"></a>
-      <p><span class="title">Facta</span><br/>
-      Ruby on Rails • JavaScript • HTML • CSS • Bootstrap<br/>
-      <span class="descr">User-regulated fun facts about ancient Rome.</span><br/>
-      <span class="links"><a href="http://kellylougheed.com/blog/building-intellectually-responsible-roman-history-facts-app/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/facta" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
+      <a href="http://www.kellylougheed.com/weather-app" target="_blank"><img src="http://www.kellylougheed.com/images/projects/weatherapp.png" class="responsive" alt="JavaScript app that consumes weather API"></a>
+      <p><span class="title">Weather App</span><br/>
+      JavaScript • HTML • CSS<br/>
+      <span class="descr">Weather app that consumes APIs for location and weather.</span><br/>
+      <span class="links"><a href="https://github.com/kellylougheed/weather-app" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -65,28 +80,43 @@
       <span class="descr">Writes and mails a poem to apologize for eating your roommate's food.</span><br/>
       <span class="links"><a href="http://kellylougheed.com/blog/says-computers-cant-write-poetry/" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a>&nbsp;&nbsp;<a href="https://github.com/kellylougheed/this-is-just-to-say" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
     </div>
-        
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/calculator" target="_blank"><img src="http://www.kellylougheed.com/images/projects/calculator.png" class="responsive" alt="JavaScript calculator"></a>
-      <p><span class="title">Calculator</span><br/>
-      JavaScript • jQuery • HTML • CSS<br/>
-      <span class="descr">Calculator that uses order of operators to solve equations.</span><br/>
-      <span class="links"><a href="https://github.com/kellylougheed/calculator" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
-    </div>
+
   </div><!-- container -->
 </div><!-- work -->
 
+<h1>Blog</h1>
+<div class="container">
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="blog-post">
+      <p><a href="http://kellylougheed.com/blog/five-ways-classics-major-prepared-web-developer/" target="_blank">5 ways my Classics major prepared me to be a software engineer</a></p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="blog-post">
+      <p><a href="http://kellylougheed.com/blog/loop-array-xsl/" target="_blank">How to loop through an array in XSL</a></p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="blog-post">
+      <p><a href="http://kellylougheed.com/blog/four-things-learned-first-week-web-developer-intern/" target="_blank">4 things I learned my first week as web developer intern</a></p>
+    </div>
+  </div>
+</div>
+
 <h1>About</h1>
-<div class="break"></div>
-<br/>
-<p class="about">I'm a California native who's been making websites since third grade. Currently, my skill set is centered around Ruby on Rails, JavaScript, and PHP. I enjoy debugging server-side scripts as much as styling websites, and I have experience building sites and applications in the workplace and remotely. While studying Classics at Brown University, I developed a knack for languages (human &amp; computer) and excellent communication skills. My previous career as a Latin teacher also gives me a special interest in ed tech.</p>
-<br/><br/>
+<div class="container">
+  <div class="col-lg-3 col-md-4 col-sm-12">
+    <img src="http://www.kellylougheed.com/images/profile.jpg" class="responsive" id="profile" alt="Kelly Lougheed"/>
+  </div>
+  <div class="col-lg-9 col-md-8 col-sm-12">
+    <p class="about">I'm a Los Angeles-based software engineer with a focus on web development. Programming has been a lifelong interest of mine, from the now-ancient Harry Potter fansite I built in 3rd grade to the computer science coursework I completed at Stanford.</p>
+    <p class="about">After teaching high school Latin for several years, I developed an interest in educational technology and became determined to build my own apps (in particular, <a href="http://participation.herokuapp.com" target="_blank">an app to track participation</a>).</p>
+    <p class="about">I currently work with Python and have a strong foundation in web-based technologies such as Ruby on Rails, JavaScript, and HTML/CSS.</p>
+  </div>
+</div>
 
 <div class="footer">
-  <p class="links">
-    <a href="http://www.kellylougheed.com/blog" target="_blank">Blog</a>
-    <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">Books</a>
-  </p>
+  <p>Made with <a href="http://www.philzcoffee.com/" target="_blank"><i class="fa fa-coffee" aria-hidden="true"></i></a> and <a href="https://www.google.com/search?q=weather%20los%20angeles%20ca" target="_blank"><i class="fa fa-sun-o" aria-hidden="true"></i></a> by Kelly Lougheed, 2016-17.</p>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

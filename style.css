@@ -4,14 +4,14 @@
 
 body {
   color: #000000;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   margin: 0;
 }
 
 div.header {
-  background: url(http://www.kellylougheed.com/images/backgrounds/me.jpg); 
+  background: url(http://www.kellylougheed.com/images/backgrounds/santamonica.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -30,53 +30,25 @@ div.intro {
 h1, h2 {
   text-align: center;
   font-weight: 100;
+  margin-bottom: 0;
 }
 
 h1 {
-  font-size: 3em;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5em;
 }
 
 div.intro h1 {
-  font-size: 4em;
-  color: #006400;
-  text-shadow: 1px 2px #eeeeee;
-}
-
-div.break {
-  background-color: #006400;
-  height: 5px;
-  width: 100px;
-  margin: -20px auto 0 auto;
-  box-shadow: 1px 1px rgba(255,255,255,.5);
-}
-
-div.black {
-  background-color: black;
-  width: 75px;
+  font-size: 5em;
+  color: #C70700;
+  text-shadow: 1px 2px rgba(255,255,255,.5);
 }
 
 div.intro h2 {
-  color: white;
-  text-shadow: 1px 2px #000000;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  line-height: 35px;
 }
-
-/*@keyframes pulse {
-  0% {
-    font-size: 4em;
-  }
-  100% {
-    font-size: 5em;
-  }
-}
-
-@-webkit-keyframes {
-  0% {
-    font-size: 4em;
-  }
-  100% {
-    font-size: 5em;
-  }
-}*/
 
 div.down {
   width: 100%;
@@ -85,16 +57,15 @@ div.down {
   position: absolute;
   text-shadow: 1px 2px #000000;
   font-size: 4em;
-  /*animation: pulse 1.5s 1s infinite linear alternate;
-  -webkit-animation: pulse 1.5s 1s infinite linear alternate;*/
 }
 
 div.down a {
   color: white;
+  border: none;
 }
 
 div.down a:hover {
-  color: #008000;
+  color: #C70700;
   cursor: pointer;
 }
 
@@ -103,9 +74,9 @@ p {
 }
 
 p.about {
+  text-align: left;
   line-height: 25px;
-  max-width: 80%;
-  margin: 0 auto;
+  margin: 0 25px 25px 25px;
 }
 
 a.contact {
@@ -113,10 +84,12 @@ a.contact {
   color: #ffffff;
   text-shadow: 1px 2px #000000;
   padding: 0 10px 0 10px;
+  border: none;
 }
 
 a.contact:hover {
-  color: #008000;
+  color: #C70700;
+  border: none;
 }
 
 div.container {
@@ -135,6 +108,21 @@ div.container img:hover {
   box-shadow: 2px 2px 5px rgba(0,0,0,.9);
 }
 
+div.container h2 {
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img#profile {
+  box-shadow: none;
+  border: none;
+  border-radius: 10%;
+  margin: 0 25px 25px 25px;
+}
+
 span.title {
   font-size: 1.2em;
   letter-spacing: 2px;
@@ -151,58 +139,85 @@ span.links {
 
 span.links a {
   color: #000000;
+  border: none;
 }
 
 span.links a:hover {
-  color: #707070;
+  color: red;
 }
 
 .responsive {
   width: 100%;
 }
 
+.blog-post {
+  background: url(http://www.kellylougheed.com/images/wp/code2.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  -webkit-transition: background-color .5s;
+  border-radius: 10px;
+  height: 200px;
+  position: relative;
+  margin: 2px;
+}
+
+.blog-post p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.blog-post a {
+  color: white;
+  font-size: 1.5em;
+  border: none;
+}
+
+.blog-post a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
 a {
   text-decoration: none;
   transition: color .5s;
   -webkit-transition: color .5s;
-  color: #663300;
+  color: #C70700;
+  border-bottom: 1px solid #C70700;
 }
 
 a:hover {
-  color: #b35900;
+  color: red;
+  border-bottom: 1px solid red;
 }
 
 div.footer {
-  background: url(http://www.kellylougheed.com/images/backgrounds/vineyard.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  position: relative;
+  background-color: #C70700;
+  height: 40px;
+  color: white;
+  font-family: 'Sacramento', sans-serif;
 }
 
-p.links {
-  position: absolute;
-  top: 100px;
-  width: 100%;
-  text-align: center;
+div.footer p {
+  padding-top: 10px;
 }
 
 div.footer a {
-  padding: 20px;
-  margin: 0 50px 0 50px;
-  color: #006400;
-  background-color: rgba(255,255,255,.7);
-  border-radius: 20px;
-  border: 2px solid #006400;
   text-decoration: none;
-  font-size: 1.5em;
-  transition: background .5s;
-  -webkit-transition: background .5s;
+  color: white;
+  border: none;
 }
 
 div.footer a:hover {
-  background: #006400;
-  color: white;
+  border-bottom: 1px solid white;
 }
 
 /********** Large devices **********/
@@ -303,26 +318,20 @@ div.footer a:hover {
 /********** Small devices **********/
 @media (max-width: 767px) {
 
-  div.intro {
-    padding-top: 5px;
+  div.intro h1, h1 {
+    font-size: 3em;
   }
 
-  div.intro h1 {
-    font-size: 2.5em;
-    margin-top: 100px;
+  div.intro h2 {
+    font-size: 1.1em;
   }
 
-  div.break {
-    margin-top: -5px;
+  img#profile {
+    margin: 0;
   }
 
-  p.links {
-    top: 50px;
-  }
-
-  div.footer a {
-    display: inline-block;
-    margin-bottom: 20px;
+  div.footer {
+    height: 80px;
   }
 
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
