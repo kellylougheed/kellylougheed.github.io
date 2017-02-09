@@ -13,7 +13,7 @@
   <div class="header">
     <div class="intro">
       <h1>Kelly Lougheed</h1>
-      <h2>Software Engineer | Educator<br/>
+      <h2>Software Developer | Educator<br/>
       Los Angeles, CA</h2>
       <p><a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
@@ -34,7 +34,7 @@
         <li> Teachers can input their rosters and track participation points for each student.</li>
         <li> Teachers can record comments about students to use in report cards &amp; parent-teacher conferences.</li>
         <li> Built with Ruby on Rails, JavaScript, HTML/CSS. Security managed by Devise.</li>
-        <li> The code is <a href="https://github.com/kellylougheed/participation" target="_blank">open-source on GitHub</a> and has 100% test coverage. </li>
+        <li> The code is <a href="https://github.com/kellylougheed/participation" target="_blank">open-source on GitHub</a> and has >95% test coverage. </li>
         <li> Read the blog post about the story and philosophy behind the app, <a href="http://kellylougheed.com/blog/participation-points-real/" target="_blank">Your Participation Points Are Real</a>. </li>
       </ul>
     </div>
@@ -84,32 +84,13 @@
   </div><!-- container -->
 </div><!-- work -->
 
-<h1>Blog</h1>
-<div class="container">
-  <div class="col-lg-4 col-md-4 col-sm-12">
-    <div class="blog-post">
-      <p><a href="http://kellylougheed.com/blog/five-ways-classics-major-prepared-web-developer/" target="_blank">5 ways my Classics major prepared me to be a software engineer</a></p>
-    </div>
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-    <div class="blog-post">
-      <p><a href="http://kellylougheed.com/blog/loop-array-xsl/" target="_blank">How to loop through an array in XSL</a></p>
-    </div>
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-12">
-    <div class="blog-post">
-      <p><a href="http://kellylougheed.com/blog/four-things-learned-first-week-web-developer-intern/" target="_blank">4 things I learned my first week as web developer intern</a></p>
-    </div>
-  </div>
-</div>
-
 <h1>About</h1>
 <div class="container">
   <div class="col-lg-3 col-md-4 col-sm-12">
     <img src="http://www.kellylougheed.com/images/profile.jpg" class="responsive" id="profile" alt="Kelly Lougheed"/>
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
-    <p class="about">I'm a Los Angeles-based software engineer with a focus on web development. Programming has been a lifelong interest of mine, from the now-ancient Harry Potter fansite I built in 3rd grade to the computer science coursework I completed at Stanford.</p>
+    <p class="about">I'm a Los Angeles-based software developer with a passion for education. Programming has been a lifelong interest of mine, from the now-ancient Harry Potter fansite I built in 3rd grade to the computer science coursework I completed at Stanford.</p>
     <p class="about">After teaching high school Latin for several years, I developed an interest in educational technology and became determined to build my own apps (in particular, <a href="http://participation.herokuapp.com" target="_blank">an app to track participation</a>).</p>
     <p class="about">I currently work with Python and have a strong foundation in web-based technologies such as Ruby on Rails, JavaScript, and HTML/CSS.</p>
   </div>
