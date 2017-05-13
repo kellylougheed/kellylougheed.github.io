@@ -159,13 +159,15 @@ a {
   text-decoration: none;
   transition: color .5s;
   -webkit-transition: color .5s;
-  color: #C70700;
-  border-bottom: 1px solid #C70700;
+  transition: border .5s;
+  -webkit-transition: border .5s;
+  color: #000;
+  border-bottom: 2px solid #C70700;
 }
 
 a:hover {
-  color: red;
-  border-bottom: 1px solid red;
+  color: #000;
+  border-bottom: 2px solid red;
 }
 
 div.footer {
