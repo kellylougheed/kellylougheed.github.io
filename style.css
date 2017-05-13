@@ -3,7 +3,7 @@
 }
 
 body {
-  color: #000000;
+  color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
@@ -36,6 +36,7 @@ h1, h2 {
 h1 {
   font-family: 'Sacramento', sans-serif;
   font-size: 5em;
+  color: #000;
 }
 
 div.intro h1 {
@@ -137,6 +138,10 @@ span.links {
   font-size: 1.5em;
 }
 
+span.links.books {
+  font-size: 1.2em;
+}
+
 span.links a {
   color: #000000;
   border: none;
@@ -148,42 +153,6 @@ span.links a:hover {
 
 .responsive {
   width: 100%;
-}
-
-.blog-post {
-  background: url(http://www.kellylougheed.com/images/wp/code2.jpg);
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  -webkit-transition: background-color .5s;
-  border-radius: 10px;
-  height: 200px;
-  position: relative;
-  margin: 2px;
-}
-
-.blog-post p {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  width: 100%;
-  background: linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,0));
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.blog-post a {
-  color: white;
-  font-size: 1.5em;
-  border: none;
-}
-
-.blog-post a:hover {
-  color: white;
-  border-bottom: 2px solid white;
 }
 
 a {

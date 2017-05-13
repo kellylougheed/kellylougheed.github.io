@@ -15,7 +15,7 @@
       <h1>Kelly Lougheed</h1>
       <h2>Software Developer | Educator<br/>
       Los Angeles, CA</h2>
-      <p><a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
+      <p><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
     <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
   </div><!-- header -->
@@ -90,9 +90,15 @@
     <img src="http://www.kellylougheed.com/images/profile.jpg" class="responsive" id="profile" alt="Kelly Lougheed"/>
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
-    <p class="about">I'm a Los Angeles-based software developer with a passion for education. Programming has been a lifelong interest of mine, from the now-ancient Harry Potter fansite I built in 3rd grade to the computer science coursework I completed at Stanford.</p>
-    <p class="about">After teaching high school Latin for several years, I developed an interest in educational technology and became determined to build my own apps (in particular, <a href="http://participation.herokuapp.com" target="_blank">an app to track participation</a>).</p>
-    <p class="about">I currently work with Python and have a strong foundation in web-based technologies such as Ruby on Rails, JavaScript, and HTML/CSS.</p>
+    <p class="about">
+    	I'm a Los Angeles-based software developer and computer science teacher. I've been making websites for years and have worked professionally with Python, JavaScript, and PHP.
+    </p>
+    <p class="about">
+    	I love to code and build applications about my interests: education, literature, and languages. I have a degree in Classics (Latin &amp; Greek) from Brown University and have also studied computer science at Stanford University and the College of St. Scholastica.
+    </p>
+    <p class="about">
+    	My favorite part of computer science is how vast the field is: I'll never run out of new things to learn!
+    </p>
   </div>
 </div>
 
