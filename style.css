@@ -62,6 +62,8 @@ div.down {
 
 div.down a {
   color: white;
+  transition: color .5s;
+  -webkit-transition: color .5s;
   border: none;
 }
 
@@ -83,6 +85,8 @@ p.about {
 a.contact {
   font-size: 2em;
   color: #ffffff;
+  transition: color .5s;
+  -webkit-transition: color .5s;
   text-shadow: 1px 2px #000000;
   padding: 0 10px 0 10px;
   border: none;
