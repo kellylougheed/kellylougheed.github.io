@@ -144,6 +144,8 @@ span.links.books {
 
 span.links a {
   color: #000000;
+  transition: color .5s;
+  -webkit-transition: color .5s;
   border: none;
 }
 
