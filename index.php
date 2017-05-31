@@ -135,7 +135,7 @@ foreach ($skills as $name => $class) {
         <li> Breakdown of my education in computer science and Latin.</li>
         <li> Description of my teaching experience at multiple schools and organizations.</li>
         <li> Website design inspired by the computer terminal and code text editors. Code available on <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">GitHub</a>.</li>
-        <li> Built with HTML/CSS, Bootstrap, and PHP.</li>
+        <li> Built with PHP, HTML/CSS, and Bootstrap.</li>
       </ul>
     </div>
 </div>
