@@ -93,54 +93,31 @@
   </div><!-- container -->
 </div><!-- work -->
 
+<?php 
+$skills = array(
+  "Python" => "devicon-python-plain",
+  "Java" => "devicon-java-plain",
+  "Ruby" => "devicon-ruby-plain",
+  "Rails" => "devicon-rails-plain",
+  "PHP" => "devicon-php-plain",
+  "JavaScript" => "devicon-javascript-plain",
+  "HTML5" => "devicon-html5-plain",
+  "CSS3" => "devicon-css3-plain",
+  "Swift" => "devicon-swift-plain"
+  );
+?>
+
 <h1>Skills</h1>
 
 <div id="skills" class="container">
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-python-plain colored"></i>
-    <br/><br/>
-    Python
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-java-plain colored"></i>
-    <br/><br/>
-    Java
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-ruby-plain colored"></i>
-    <br/><br/>
-    Ruby
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-rails-plain colored"></i>
-    <br/><br/>
-    Rails
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-php-plain colored"></i>
-    <br/><br/>
-    PHP
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-javascript-plain colored"></i> 
-    <br/><br/>
-    JavaScript
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-html5-plain colored"></i>
-    <br/><br/>
-    HTML5
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-css3-plain colored"></i>
-    <br/><br/>
-    CSS3
-  </div>
-  <div class="col-lg-1 col-md-2 col-sm-3">
-    <i class="devicon-swift-plain colored"></i>
-    <br/><br/>
-    Swift
-  </div>
+<?php
+foreach ($skills as $name => $class) {
+  echo '<div class="col-lg-1 col-md-2 col-sm-3">';
+  echo '<i class="' . $class . ' colored"></i><br/><br/>';
+  echo $name;
+  echo '</div>';
+}
+?>
 </div>
 
 <h1>Teaching</h1>
