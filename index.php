@@ -103,7 +103,8 @@ $skills = array(
   "JavaScript" => "devicon-javascript-plain",
   "HTML5" => "devicon-html5-plain",
   "CSS3" => "devicon-css3-plain",
-  "Swift" => "devicon-swift-plain"
+  "Swift" => "devicon-swift-plain",
+  "PhotoShop" => "devicon-photoshop-plain"
   );
 ?>
 
