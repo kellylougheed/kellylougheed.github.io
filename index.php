@@ -30,6 +30,7 @@
   </div><!-- header -->
 <div id="work">
   <h1>Projects</h1>
+
   <div class="container"> 
 
     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -129,11 +130,11 @@ foreach ($skills as $name => $class) {
     <div class="col-lg-6 col-md-6 col-sm-12">
       <h2>Teaching Portfolio</h2>
       <br/>
-      <p class="about">I'm a computer science teacher with previous experience as a Latin teacher. My teaching portfolio includes...</p>
+      <p class="about">My teaching portfolio includes...</p>
       <ul>
-        <li> Sample lessons and projects in computer science and Latin.</li>
+        <li> Sample lessons and projects in Computer Science and Latin.</li>
         <li> Student reviews from two institutions.</li>
-        <li> Breakdown of my education in computer science and Latin.</li>
+        <li> Breakdown of my education in Computer Science and Latin.</li>
         <li> Description of my teaching experience at multiple schools and organizations.</li>
         <li> Website design inspired by the computer terminal and code text editors. Code available on <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">GitHub</a>.</li>
         <li> Built with PHP, HTML/CSS, and Bootstrap.</li>
@@ -148,13 +149,13 @@ foreach ($skills as $name => $class) {
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
     <p class="about">
-    	I'm a Los Angeles-based software developer and computer science teacher. I've been making websites for years and have worked professionally with Python, JavaScript, and PHP.
+    	I'm a Los Angeles-based computer science teacher. I started making websites to advertise <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">my writing</a>, and now I build full-stack web applications. I believe that computer science has a place in every student's education and that the CS skillset can be applied to any field.
     </p>
     <p class="about">
-    	I love to code and build applications about my interests: education, literature, and languages. I have a degree in Classics (Latin &amp; Greek) from Brown University and have also studied computer science at Stanford University and the College of St. Scholastica.
+      I have worked as a software developer using JavaScript, Python, and PHP and also enjoy building projects in Ruby on Rails and Swift. Most recently, I've been pursing a certificate in Computer Science Education at the College of St. Scholastica.
     </p>
     <p class="about">
-    	My favorite part of computer science is how vast the field is: I'll never run out of new things to learn!
+      As a Classics (Latin &amp; Greek) graduate of Brown University and former Latin teacher, I particularly enjoy building projects that relating to Latin, Italian, literature, and education.
     </p>
   </div>
 </div>
