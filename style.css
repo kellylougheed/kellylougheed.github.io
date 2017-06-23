@@ -97,15 +97,6 @@ a.contact:hover {
   border: none;
 }
 
-div#skills i {
-  font-size: 5em;
-}
-
-div#skills div {
-  text-align: center;
-  color: #707070;
-}
-
 div.container {
   display: flex;
   flex-wrap: wrap;
@@ -137,52 +128,56 @@ img#profile {
   margin: 0 25px 25px 25px;
 }
 
-span.title {
-  font-size: 1.2em;
-  letter-spacing: 2px;
-  font-weight: 400;
-}
-
-span.descr {
-  color: #707070;
-}
-
-span.links {
-  font-size: 1.5em;
-}
-
-span.links.books {
-  font-size: 1.2em;
-}
-
-span.links a {
-  color: #000000;
-  transition: color .5s;
-  -webkit-transition: color .5s;
-  border: none;
-}
-
-span.links a:hover {
-  color: red;
-}
-
 .responsive {
   width: 100%;
+}
+
+.tools span, .proj-links a {
+  padding: 6px;
+  margin: 4px;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.tools span {
+  background: #eeeeee;
+}
+
+.proj-links a {
+  border: 1px solid black;
+}
+
+.proj-links a:hover {
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+div#skills {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+div#skills i {
+  font-size: 4em;
+}
+
+div#skills div {
+  text-align: center;
+  color: #707070;
 }
 
 a {
   text-decoration: none;
   transition: color .5s;
   -webkit-transition: color .5s;
-  transition: border .5s;
-  -webkit-transition: border .5s;
   color: #000;
-  border-bottom: 2px solid #C70700;
+  border-bottom: 1px dotted black;
 }
 
 a:hover {
   color: #000;
-  border-bottom: 2px solid red;
+  border-bottom: 1px solid black;
 }
 
 div.footer {
@@ -314,6 +309,10 @@ div.footer a:hover {
 
   img#profile {
     margin: 0;
+  }
+
+  div#skills {
+    max-width: 100%;
   }
 
   div.footer {
