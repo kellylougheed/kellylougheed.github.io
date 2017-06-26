@@ -88,7 +88,28 @@
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
+      <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.jpg" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <br/>
+      <h2>Cicero</h2>
+      <p class="tools">
+        <span>JavaScript</span>
+        <span>APIs</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </p>
+      <ul>
+        <li> Italian-to-English dictionary in your browser window as a Chrome extension.</li>
+        <li> Consumes the <a href="https://glosbe.com/" target="_blank">Glosbe API</a> to provide translations and grammar help.</li>
+        <li> Built to enable immersive reading for Italian language learners.</li>
+      </ul>
+      <p class="proj-links">
+        <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank">Chrome Store</a>
+        <a href="https://github.com/kellylougheed/cicero" target="_blank">Github</a>
+        <!-- <a href="http://kellylougheed.com/blog/" target="_blank">Blog Post</a> -->
+      </p>
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -113,6 +134,14 @@
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
       <h2>Teaching Portfolio</h2>
       <p class="tools">
@@ -131,10 +160,6 @@
         <a href="http://www.kellylougheed.com/teaching" target="_blank">Live Site</a>
         <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">Github</a>
       </p>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
     </div>
 
   </div><!-- container -->
