@@ -11,7 +11,7 @@ body {
 }
 
 div.header {
-  background: url(http://www.kellylougheed.com/images/backgrounds/santamonica.jpg); 
+  background: url(http://www.kellylougheed.com/images/backgrounds/beach.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -41,13 +41,13 @@ h1 {
 
 div.intro h1 {
   font-size: 5em;
-  color: #C70700;
-  text-shadow: 1px 2px rgba(255,255,255,.5);
+  color: #fff;
+  text-shadow: 1px 2px rgba(0,0,0,.7);
 }
 
 div.intro h2 {
-  color: #ffffff;
-  text-shadow: 1px 1px #000000;
+  color: #3399ff;
+  text-shadow: 1px 1px rgba(255,255,255,.9);
   line-height: 35px;
 }
 
@@ -56,19 +56,19 @@ div.down {
   text-align: center;
   bottom: 50px;
   position: absolute;
-  text-shadow: 1px 2px #000000;
+  text-shadow: 1px 2px rgba(0,0,0,.5);
   font-size: 4em;
 }
 
 div.down a {
-  color: white;
+  color: #fff;
   transition: color .5s;
   -webkit-transition: color .5s;
   border: none;
 }
 
 div.down a:hover {
-  color: #C70700;
+  color: #3399ff;
   cursor: pointer;
   background: none;
 }
@@ -85,18 +85,21 @@ p.about {
 
 a.contact {
   font-size: 2em;
-  color: #ffffff;
+  color: #3399ff;
   transition: color .5s;
   -webkit-transition: color .5s;
-  text-shadow: 1px 2px #000000;
+  transition: text-shadow .5s;
+  -webkit-transition: text-shadow .5s;
+  text-shadow: 1px 2px rgba(255,255,255,.7);
   padding: 0 10px 0 10px;
   border: none;
 }
 
 a.contact:hover {
-  color: #C70700;
+  color: #fff;
   border: none;
   background: none;
+  text-shadow: 1px 2px rgba(0,0,0,.7);
 }
 
 div.container {
