@@ -33,6 +33,8 @@
 
   <div class="container"> 
 
+    <div class="proj">
+
     <div class="col-lg-6 col-md-6 col-sm-12">
       <a href="http://participation.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/participation.png" class="responsive" alt="Rails student participation gradebook app for teachers"></a>
     </div>
@@ -61,6 +63,10 @@
       </p>
     </div>
 
+    </div>
+
+    <div class="proj">
+
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
       <h2>Roman Numeral Quiz</h2>
@@ -87,6 +93,10 @@
       <a href="http://www.kellylougheed.com/roman" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="AngularJS Roman numeral quiz app"></a>
     </div>
 
+    </div>
+
+    <div class="proj">
+
     <div class="col-lg-6 col-md-6 col-sm-12">
       <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.jpg" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
     </div>
@@ -111,6 +121,10 @@
         <!-- <a href="http://kellylougheed.com/blog/" target="_blank">Blog Post</a> -->
       </p>
     </div>
+
+    </div>
+
+    <div class="proj">
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
@@ -137,6 +151,10 @@
       <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
     </div>
 
+    </div>
+
+    <div class="proj">
+
     <div class="col-lg-6 col-md-6 col-sm-12">
       <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
     </div>
@@ -160,6 +178,8 @@
         <a href="http://www.kellylougheed.com/teaching" target="_blank">Live Site</a>
         <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">Github</a>
       </p>
+    </div>
+
     </div>
 
   </div><!-- container -->
@@ -192,7 +212,6 @@ $skills = array(
   "Python" => "devicon-python-plain",
   "Java" => "devicon-java-plain",
   "Swift" => "devicon-swift-plain",
-  "Git" => "devicon-git-plain",
   "HTML5" => "devicon-html5-plain-wordmark",
   "CSS3" => "devicon-css3-plain-wordmark",
   );
@@ -201,7 +220,7 @@ $skills = array(
 <div id="skills" class="container">
 <?php
 foreach ($skills as $name => $class) {
-  echo '<div class="col-lg-3 col-md-3 col-sm-4">';
+  echo '<div class="col-lg-2 col-md-2 col-sm-3">';
   echo '<i class="' . $class . '"></i><br/><br/>';
   echo $name;
   echo '</div>';

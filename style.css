@@ -95,6 +95,7 @@ a.contact {
 a.contact:hover {
   color: #C70700;
   border: none;
+  background: none;
 }
 
 div.container {
@@ -121,6 +122,15 @@ li {
   margin-bottom: 10px;
 }
 
+div.proj {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.proj:nth-child(even) {
+  background-color: #eee;
+}
+
 img#profile {
   box-shadow: none;
   border: none;
@@ -141,16 +151,20 @@ img#profile {
 }
 
 .tools span {
-  background: #eeeeee;
+  background: #3399ff;
+  color: white;
+  border-radius: 5px;
 }
 
 .proj-links a {
-  border: 1px solid black;
+  border: 2px solid #333;
+  border-radius: 5px;
 }
 
 .proj-links a:hover {
-  font-weight: bold;
-  border: 2px solid black;
+  color: white;
+  background-color: #333;
+  border: 2px solid #333;
 }
 
 div#skills {
@@ -159,7 +173,7 @@ div#skills {
 }
 
 div#skills i {
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 div#skills div {
@@ -171,17 +185,20 @@ a {
   text-decoration: none;
   transition: color .5s;
   -webkit-transition: color .5s;
-  color: #000;
-  border-bottom: 1px dotted black;
+  transition: background .5s;
+  -webkit-transition: background .5s;
+  color: #333;
+  border-bottom: 2px solid #3399ff;
 }
 
 a:hover {
-  color: #000;
-  border-bottom: 1px solid black;
+  color: white;
+  background: #3399ff;
+  border-bottom: 2px solid #3399ff;
 }
 
 div.footer {
-  background-color: #C70700;
+  background-color: #3399ff;
   height: 40px;
   color: white;
   font-family: 'Sacramento', sans-serif;
