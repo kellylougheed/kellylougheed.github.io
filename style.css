@@ -70,6 +70,7 @@ div.down a {
 div.down a:hover {
   color: #C70700;
   cursor: pointer;
+  background: none;
 }
 
 p {
@@ -168,8 +169,10 @@ img#profile {
 }
 
 div#skills {
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 auto;
+  font-size: .8em;
+  text-transform: uppercase;
 }
 
 div#skills i {

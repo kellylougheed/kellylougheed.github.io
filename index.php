@@ -24,7 +24,7 @@
       <h1>Kelly Lougheed</h1>
       <h2>Software Developer | Educator<br/>
       Los Angeles, CA</h2>
-      <p><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
+      <p><a class="contact" href="http://www.kellylougheed.com/blog" target="_blank"><i class="fa fa-wordpress" aria-hidden="true"></i></a> <a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kelly-lougheed-ba147b121" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
     <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
   </div><!-- header -->
@@ -208,10 +208,10 @@ $skills = array(
   "JavaScript" => "devicon-javascript-plain",
   "Ruby" => "devicon-ruby-plain",
   "Rails" => "devicon-rails-plain",
-  "PHP" => "devicon-php-plain",
   "Python" => "devicon-python-plain",
   "Java" => "devicon-java-plain",
   "Swift" => "devicon-swift-plain",
+  "PHP" => "devicon-php-plain",
   "HTML5" => "devicon-html5-plain-wordmark",
   "CSS3" => "devicon-css3-plain-wordmark",
   );
