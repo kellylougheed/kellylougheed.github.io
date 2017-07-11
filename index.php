@@ -193,7 +193,7 @@
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
     <p class="about">
-    	I'm a Los Angeles-based computer science teacher and software developer. I started making websites to advertise <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">my books</a>, and now I build full-stack web applications. As a Classics (Latin &amp; Greek) graduate of Brown University and former Latin teacher, I particularly enjoy building applications that relate to education and the humanities.
+    	I'm a Los Angeles-based computer science teacher and software developer. I started making websites in 3rd grade and eventually used them to advertise <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">my books</a>. Now I build full-stack web applications. As a Classics (Latin &amp; Greek) graduate of Brown University and former Latin teacher, I particularly enjoy building applications that relate to education and the humanities.
     </p>
     <p class="about">
       I have worked as a software developer using JavaScript, Python, and PHP and have also built apps in Ruby on Rails and Swift. Most recently, I've been pursing a certificate in Computer Science Education at the College of St. Scholastica.
