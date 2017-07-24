@@ -129,6 +129,38 @@
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
+      <h2>HIIT Timer</h2>
+      <p class="tools">
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </p>
+      <ul>
+        <li> Customizable fitness timer that tracks intervals of activity and rest for HIIT workouts.</li>
+        <li> Color changes from cyan to pink depending on level of activity.</li>
+        <li> Includes pause and reset buttons.</li>
+      </ul>
+      <p class="proj-links">
+        <a href="http://www.kellylougheed.com/hiit" target="_blank">Live Site</a>
+        <a href="https://github.com/kellylougheed/hiit-timer" target="_blank">Github</a>
+        <a href="http://kellylougheed.com/blog/a-javascript-timer-for-hiit-workouts/" target="_blank">Blog Post</a>
+      </p>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
+    </div>
+
+    </div>
+
+    <div class="proj">
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <br/>
       <h2>This Is Just To Say</h2>
       <p class="tools">
         <span>PHP</span>
@@ -148,17 +180,9 @@
       </p>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
-    </div>
-
     </div>
 
     <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
-    </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
@@ -179,6 +203,10 @@
         <a href="http://www.kellylougheed.com/teaching" target="_blank">Live Site</a>
         <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">Github</a>
       </p>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
     </div>
 
     </div>
