@@ -111,7 +111,7 @@
       <ul>
         <li> Italian-to-English dictionary in your browser window as a Chrome extension.</li>
         <li> Consumes the <a href="https://glosbe.com/" target="_blank">Glosbe API</a> to provide translations and grammar help.</li>
-        <li> Originally built as an iOS app with Swift (<a href="https://github.com/kellylougheed/capisce" target="_blank">github</a> &amp; <a href="http://kellylougheed.com/blog/3-lessons-i-learned-from-calling-an-api-in-swift/" target="_blank">blog post</a>).</li>
+        <li> Originally built as an iOS app with Swift (code on <a href="https://github.com/kellylougheed/capisce" target="_blank">GitHub</a>).</li>
         <li> Built to enable immersive reading for Italian language learners.</li>
       </ul>
       <p class="proj-links">
@@ -212,14 +212,14 @@
 <h1>About</h1>
 <div class="container">
   <div class="col-lg-3 col-md-4 col-sm-12">
-    <img src="http://www.kellylougheed.com/images/prof-agrigento.jpg" class="responsive" id="profile" alt="Kelly Lougheed"/>
+    <img src="http://www.kellylougheed.com/images/profile.jpg" class="responsive" id="profile" alt="Kelly Lougheed"/>
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
     <p class="about">
-    	I'm a Los Angeles-based computer science teacher and software developer. I started making websites in 3rd grade and eventually used them to advertise <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">my books</a>. Now I build full-stack web applications. As a Classics (Latin &amp; Greek) graduate of Brown University and former Latin teacher, I particularly enjoy building applications that relate to education and the humanities.
+    	I'm a Los Angeles-based computer science teacher. I've worked as a software developer and am currently in my fourth year of teaching. I am also pursuing a certificate in Computer Science Education at the College of St. Scholastica.
     </p>
     <p class="about">
-      I have worked as a software developer using JavaScript, Python, and PHP and have also built apps in Ruby on Rails and Swift. Most recently, I've been pursing a certificate in Computer Science Education at the College of St. Scholastica.
+      I started making websites in 3rd grade and eventually used them to advertise the <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">YA books</a> I wrote. Now I build full-stack web applications. I have experience with Python, Java, JavaScript, Ruby on Rails, PHP, and HTML/CSS, as well as pedagogical tools like Scratch and App Inventor.
     </p>
     <p class="about">
       I believe that computer science has a place in every student's education and that the CS skillset can be applied to any field. Beyond programming, I'm also interested in technology history, digital humanities, and the social and ethical issues surrounding tech.
