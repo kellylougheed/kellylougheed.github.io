@@ -191,8 +191,7 @@
       <ul>
         <li> Sample lessons and projects in Computer Science and Latin.</li>
         <li> Narratives of my teaching experience and education in Computer Science and Latin.</li>
-        <li> Student reviews.</li>
-        <li> Website design inspired by the computer terminal and code text editors.</li>
+        <li> Student feedback.</li>
       </ul>
       <p class="proj-links">
         <a href="http://www.kellylougheed.com/teaching" target="_blank">Live Site</a>
@@ -216,13 +215,12 @@
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
     <p class="about">
-    	I'm a Los Angeles-based computer science teacher. I've worked as a software developer and am currently in my fourth year of teaching. I am also pursuing a certificate in Computer Science Education at the College of St. Scholastica.
+    	I'm a Los Angeles-based computer science teacher with a background in Latin. I've worked as a software developer and am currently in my fourth year of teaching. A Classics graduate of Brown University, I will complete certificates in Software Development at UC Berkeley and Computer Science Education at the College of St. Scholastica in summer 2018.
+    <p class="about">
+      I have professional experience with Python, JavaScript, PHP, and HTML/CSS, and have also worked with Ruby on Rails, Swift, and Java. I am familiar with block-based platforms like Scratch, Snap!, and App Inventor as well.
     </p>
     <p class="about">
-      I started making websites in 3rd grade and eventually used them to advertise the <a href="https://www.goodreads.com/author/show/4486062.Kelly_Lougheed" target="_blank">YA books</a> I wrote. Now I build full-stack web applications. I have experience with Python, Java, JavaScript, Ruby on Rails, PHP, and HTML/CSS, as well as pedagogical tools like Scratch and App Inventor.
-    </p>
-    <p class="about">
-      I believe that computer science has a place in every student's education and that the CS skillset can be applied to any field. Beyond programming, I'm also interested in technology history, digital humanities, and the social and ethical issues surrounding tech.
+      Offline, I am proficient in Latin and Ancient Greek. My top travel destination is Rome, where I have been known to indulge in conversational Latin.
     </p>
   </div>
 </div>
