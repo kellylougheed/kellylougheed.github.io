@@ -31,6 +31,8 @@
 <div id="work">
   <h1>Work</h1>
 
+  <p class="work">Before I studied computer science, I earned my degree in Latin &amp; Ancient Greek. My software projects reflect my interest in Latin, Italian, and education.</p>
+
   <div class="container"> 
 
     <div class="proj">
@@ -126,6 +128,38 @@
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
+      <h2>Sortes Virgilianae</h2>
+      <p class="tools">
+        <span>JavaScript</span>
+        <span>APIs</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </p>
+      <ul>
+        <li> Generates quotes from Vergil's Aeneid which are thought to be prophetic to the user.</li>
+        <li> Consumes <a href="http://aeneid.eu/api/" target="_blank">Aeneid API</a> to randomly produce quotes.</li>
+        <li> User can Tweet their current fortune.</li>
+      </ul>
+      <p class="proj-links">
+        <a href="http://www.kellylougheed.com/sortes" target="_blank">Live Site</a>
+        <a href="https://github.com/kellylougheed/sortes-virgilianae" target="_blank">Github</a>
+      </p>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/sortes" target="_blank"><img src="http://www.kellylougheed.com/images/projects/sortesvirgilianae.png" class="responsive" alt="JavaScript app that tells your fortune through Virgil quotes"></a>
+    </div>
+
+    </div>
+
+    <div class="proj">
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <br/>
       <h2>HIIT Timer</h2>
       <p class="tools">
         <span>JavaScript</span>
@@ -140,38 +174,6 @@
       <p class="proj-links">
         <a href="http://www.kellylougheed.com/hiit" target="_blank">Live Site</a>
         <a href="https://github.com/kellylougheed/hiit-timer" target="_blank">Github</a>
-      </p>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
-    </div>
-
-    </div>
-
-    <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank"><img src="http://www.kellylougheed.com/images/projects/thisisjusttosay.png" class="responsive" alt="PHP poetry-writing app"></a>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>This Is Just To Say</h2>
-      <p class="tools">
-        <span>PHP</span>
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> Generates a poem to apologize for eating your roommate's food.</li>
-        <li> Emails the poem to a recipient of your choice.</li>
-        <li> Can be used in the English classroom to teach William Carlos Williams.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="http://www.kellylougheed.com/this-is-just-to-say" target="_blank">Live Site</a>
-        <a href="https://github.com/kellylougheed/this-is-just-to-say" target="_blank">Github</a>
       </p>
     </div>
 

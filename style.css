@@ -77,6 +77,12 @@ p {
 	text-align: center;
 }
 
+p.work {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
 p.about {
   text-align: left;
   line-height: 25px;
