@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://use.fontawesome.com/ee14bb1f23.js"></script>
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -30,8 +30,6 @@
   </div><!-- header -->
 <div id="work">
   <h1>Work</h1>
-
-  <p class="work">Before I studied computer science, I earned my degree in Latin &amp; Ancient Greek. My software projects reflect my interest in Latin, Italian, and education.</p>
 
   <div class="container"> 
 
@@ -128,6 +126,34 @@
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
+      <h2>IIB (To Be)</h2>
+      <p class="tools">
+        <span>App Inventor</span>
+      </p>
+      <ul>
+        <li> Quiz app on the irregular conjugation of the Latin verb sum (to be).</li>
+        <li> Generates random valid combinations of person, number, tense, and mood to prompt the user for the Latin conjugation.</li>
+        <li> Uses an algorithm to conjugate sum and correct the user, if necessary.</li>
+      </ul>
+      <p class="proj-links">
+        <a href="https://play.google.com/store/apps/details?id=appinventor.ai_kellylougheed.IIB" target="_blank">Play Store</a>
+      </p>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/sortes" target="_blank"><img src="http://www.kellylougheed.com/images/projects/iib.jpg" class="responsive" alt="Android app to practice conjugating the irregular Latin verb sum"></a>
+    </div>
+
+    </div>
+
+    <div class="proj">
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/sortes" target="_blank"><img src="http://www.kellylougheed.com/images/projects/sortesvirgilianae.png" class="responsive" alt="JavaScript app that tells your fortune through Virgil quotes"></a>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <br/>
       <h2>Sortes Virgilianae</h2>
       <p class="tools">
         <span>JavaScript</span>
@@ -146,17 +172,9 @@
       </p>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/sortes" target="_blank"><img src="http://www.kellylougheed.com/images/projects/sortesvirgilianae.png" class="responsive" alt="JavaScript app that tells your fortune through Virgil quotes"></a>
-    </div>
-
     </div>
 
     <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
-    </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
@@ -177,9 +195,17 @@
       </p>
     </div>
 
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
+    </div>
+
     </div>
 
     <div class="proj">
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
+    </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
       <br/>
@@ -201,10 +227,6 @@
       </p>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
-    </div>
-
     </div>
 
   </div><!-- container -->
@@ -222,7 +244,7 @@
       I have professional experience with Python, JavaScript, PHP, and HTML/CSS, and have also worked with Ruby on Rails, Swift, and Java. I am familiar with block-based platforms like Scratch, Snap!, and App Inventor as well.
     </p>
     <p class="about">
-      Offline, I am proficient in Latin and Ancient Greek. My top travel destination is Rome, where I have been known to indulge in conversational Latin.
+      I believe that computer science is a tool that can be used in any discipline. My personal computing projects center around education and language study, particularly Latin and Italian.
     </p>
   </div>
 </div>

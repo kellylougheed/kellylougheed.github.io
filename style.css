@@ -4,6 +4,7 @@
 
 body {
   color: #333;
+  background-color: #ddd;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
@@ -11,7 +12,7 @@ body {
 }
 
 div.header {
-  background: url(http://www.kellylougheed.com/images/backgrounds/beach.jpg); 
+  background: url(http://www.kellylougheed.com/images/backgrounds/lights.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -31,23 +32,27 @@ h1, h2 {
   text-align: center;
   font-weight: 100;
   margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-family: 'Sacramento', sans-serif;
   font-size: 5em;
-  color: #000;
+  color: #333;
 }
 
 div.intro h1 {
   font-size: 5em;
+  text-shadow: 4px 4px rgba(0,0,0,.8);
+}
+
+div.intro h1, div.intro h2 {
   color: #fff;
-  text-shadow: 1px 2px rgba(0,0,0,.7);
 }
 
 div.intro h2 {
-  color: #3399ff;
-  text-shadow: 1px 1px rgba(255,255,255,.9);
+  color: #000;
+  text-shadow: 2px 3px rgba(255,153,0,.9);
   line-height: 35px;
 }
 
@@ -68,7 +73,7 @@ div.down a {
 }
 
 div.down a:hover {
-  color: #3399ff;
+  color: #ff9900;
   cursor: pointer;
   background: none;
 }
@@ -91,12 +96,10 @@ p.about {
 
 a.contact {
   font-size: 2em;
-  color: #3399ff;
+  color: #ff9900;
   transition: color .5s;
   -webkit-transition: color .5s;
-  transition: text-shadow .5s;
-  -webkit-transition: text-shadow .5s;
-  text-shadow: 1px 2px rgba(255,255,255,.7);
+  text-shadow: 3px 3px rgba(0,0,0,.7);
   padding: 0 10px 0 10px;
   border: none;
 }
@@ -105,7 +108,6 @@ a.contact:hover {
   color: #fff;
   border: none;
   background: none;
-  text-shadow: 1px 2px rgba(0,0,0,.7);
 }
 
 div.container {
@@ -161,7 +163,7 @@ img#profile {
 }
 
 .tools span {
-  background: #3399ff;
+  background: #ff9900;
   color: white;
   border-radius: 5px;
 }
@@ -200,20 +202,21 @@ a {
   transition: background .5s;
   -webkit-transition: background .5s;
   color: #333;
-  border-bottom: 2px solid #3399ff;
+  border-bottom: 2px solid #ff9900;
 }
 
 a:hover {
   color: white;
-  background: #3399ff;
-  border-bottom: 2px solid #3399ff;
+  background: #ff9900;
+  border-bottom: 2px solid #ff9900;
 }
 
 div.footer {
-  background-color: #3399ff;
+  background-color: #ff9900;
   height: 40px;
   color: white;
-  font-family: 'Sacramento', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 div.footer p {
