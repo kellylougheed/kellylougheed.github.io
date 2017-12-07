@@ -121,59 +121,7 @@
     </div>
 
     </div>
-
-    <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>IIB (To Be)</h2>
-      <p class="tools">
-        <span>App Inventor</span>
-      </p>
-      <ul>
-        <li> Quiz app on the irregular conjugation of the Latin verb sum (to be).</li>
-        <li> Generates random valid combinations of person, number, tense, and mood to prompt the user for the Latin conjugation.</li>
-        <li> Uses an algorithm to conjugate sum and correct the user, if necessary.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="https://play.google.com/store/apps/details?id=appinventor.ai_kellylougheed.IIB" target="_blank">Play Store</a>
-      </p>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/sortes" target="_blank"><img src="http://www.kellylougheed.com/images/projects/iib.jpg" class="responsive" alt="Android app to practice conjugating the irregular Latin verb sum"></a>
-    </div>
-
-    </div>
-
-    <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/sortes" target="_blank"><img src="http://www.kellylougheed.com/images/projects/sortesvirgilianae.png" class="responsive" alt="JavaScript app that tells your fortune through Virgil quotes"></a>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>Sortes Virgilianae</h2>
-      <p class="tools">
-        <span>JavaScript</span>
-        <span>APIs</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> Generates quotes from Vergil's Aeneid which are thought to be prophetic to the user.</li>
-        <li> Consumes <a href="http://aeneid.eu/api/" target="_blank">Aeneid API</a> to randomly produce quotes.</li>
-        <li> User can Tweet their current fortune.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="http://www.kellylougheed.com/sortes" target="_blank">Live Site</a>
-        <a href="https://github.com/kellylougheed/sortes-virgilianae" target="_blank">Github</a>
-      </p>
-    </div>
-
-    </div>
-
+    
     <div class="proj">
 
     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -239,7 +187,7 @@
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12">
     <p class="about">
-    	I'm a Los Angeles-based computer science teacher with a background in Latin. I've worked as a software developer and am currently in my fourth year of teaching. A Classics graduate of Brown University, I will complete certificates in Software Development at UC Berkeley and Computer Science Education at the College of St. Scholastica in summer 2018.
+    	I'm a computer science teacher in Los Angeles, CA. I've worked as a software developer and am currently in my fourth year of teaching. A Classics graduate of Brown University, I will complete certificates in Software Development (UC Berkeley) and Computer Science Education (College of St. Scholastica) in summer 2018.
     <p class="about">
       I have professional experience with Python, JavaScript, PHP, and HTML/CSS, and have also worked with Ruby on Rails, Swift, and Java. I am familiar with block-based platforms like Scratch, Snap!, and App Inventor as well.
     </p>
