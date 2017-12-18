@@ -17,13 +17,13 @@
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="header">
     <div class="intro">
       <h1>Kelly Lougheed</h1>
-      <h2>Software Developer | Educator<br/>
-      Los Angeles, CA</h2>
+      <h2>Software Developer | Educator</h2>
       <p><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kellylougheed/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
     <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
@@ -189,7 +189,7 @@
     <p class="about">
     	I'm a computer science teacher in Los Angeles, CA. I've worked as a software developer and am currently in my fourth year of teaching. A Classics graduate of Brown University, I will complete certificates in Software Development (UC Berkeley) and Computer Science Education (College of St. Scholastica) in summer 2018.
     <p class="about">
-      I have professional experience with Python, JavaScript, PHP, and HTML/CSS, and have also worked with Ruby on Rails, Swift, and Java. I am familiar with block-based platforms like Scratch, Snap!, and App Inventor as well.
+      I have professional experience with Python, JavaScript, PHP, and HTML/CSS, and have also worked with Ruby, Rails, Swift, C, and Java.
     </p>
     <p class="about">
       I believe that computer science is a tool that can be used in any discipline. My personal computing projects center around education and language study, particularly Latin and Italian.
@@ -204,6 +204,7 @@ $skills = array(
   "Rails" => "devicon-rails-plain",
   "Python" => "devicon-python-plain",
   "Java" => "devicon-java-plain",
+  "C/C++" => "devicon-cplusplus-plain",
   "Swift" => "devicon-swift-plain",
   "PHP" => "devicon-php-plain",
   "HTML5" => "devicon-html5-plain-wordmark",

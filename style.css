@@ -4,7 +4,7 @@
 
 body {
   color: #333;
-  background-color: #ddd;
+  background-color: #eee;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
@@ -12,7 +12,7 @@ body {
 }
 
 div.header {
-  background: url(http://www.kellylougheed.com/images/backgrounds/lights.jpg); 
+  background: url(images/backgrounds/goldengate.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -32,28 +32,34 @@ h1, h2 {
   text-align: center;
   font-weight: 100;
   margin-bottom: 0;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 h1 {
   font-size: 5em;
   color: #333;
+  font-family: 'Lobster';
 }
 
-div.intro h1 {
-  font-size: 5em;
-  text-shadow: 4px 4px rgba(0,0,0,.8);
+h2 {
+	font-family: 'Oswald';
+	text-transform: uppercase;
 }
 
 div.intro h1, div.intro h2 {
-  color: #fff;
+  color: #ff3333;
+}
+
+div.intro h1 {
+  font-size: 6em;
+  text-shadow: 3px 3px rgba(0,0,0,.7);
+  font-family: 'Lobster';
+  text-transform: none;
 }
 
 div.intro h2 {
-  color: #000;
-  text-shadow: 2px 3px rgba(255,153,0,.9);
   line-height: 35px;
+  text-shadow: 2px 2px rgba(0,0,0,.7);
 }
 
 div.down {
@@ -66,14 +72,14 @@ div.down {
 }
 
 div.down a {
-  color: #fff;
+  color: #ff3333;
   transition: color .5s;
   -webkit-transition: color .5s;
   border: none;
 }
 
 div.down a:hover {
-  color: #ff9900;
+  color: #fff;
   cursor: pointer;
   background: none;
 }
@@ -96,10 +102,10 @@ p.about {
 
 a.contact {
   font-size: 2em;
-  color: #ff9900;
+  color: #ff3333;
   transition: color .5s;
   -webkit-transition: color .5s;
-  text-shadow: 3px 3px rgba(0,0,0,.7);
+  text-shadow: 3px 3px rgba(0,0,0,.5);
   padding: 0 10px 0 10px;
   border: none;
 }
@@ -140,7 +146,7 @@ div.proj {
 }
 
 div.proj:nth-child(even) {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 img#profile {
@@ -163,7 +169,7 @@ img#profile {
 }
 
 .tools span {
-  background: #ff9900;
+  background: #aaa;
   color: white;
   border-radius: 5px;
 }
@@ -202,17 +208,21 @@ a {
   transition: background .5s;
   -webkit-transition: background .5s;
   color: #333;
-  border-bottom: 2px solid #ff9900;
+  border-bottom: 2px solid #aaa;
 }
 
 a:hover {
   color: white;
-  background: #ff9900;
-  border-bottom: 2px solid #ff9900;
+  background: #aaa;
+  border-bottom: 2px solid #aaa;
+}
+
+a img {
+	border-bottom: none;
 }
 
 div.footer {
-  background-color: #ff9900;
+  background-color: #ff3333;
   height: 40px;
   color: white;
   font-family: 'Oswald', sans-serif;
