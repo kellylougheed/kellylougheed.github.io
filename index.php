@@ -96,7 +96,7 @@
     <div class="proj">
 
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.jpg" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
+      <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.png" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
