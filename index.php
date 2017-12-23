@@ -35,145 +35,172 @@
 
     <div class="proj">
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://participation.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/participation.png" class="responsive" alt="Rails student participation gradebook app for teachers"></a>
-    </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <a href="http://participation.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/participation.png" class="responsive" alt="Rails student participation gradebook app for teachers"></a>
+      </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <h2>Participation</h2>
-      <p class="tools">
-        <span>Ruby on Rails</span>
-        <span>JavaScript</span>
-        <span>TDD</span>
-        <span>Bootstrap</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> Gradebook app for high school teachers.</li>
-        <li> Teachers can input their rosters and track participation points for each student.</li>
-        <li> Teachers can record comments about students to use in report cards &amp; parent-teacher conferences.</li>
-        <li> Comments can be automatically emailed to students.</li>
-        <li> The app was built with TDD and has >95% test coverage. </li>
-      </ul>
-      <p class="proj-links">
-        <a href="http://participation.herokuapp.com" target="_blank">Live Site</a>
-        <a href="https://github.com/kellylougheed/participation" target="_blank">Github</a>
-      </p>
-    </div>
-
-    </div>
-
-    <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>Roman Numeral Quiz</h2>
-      <p class="tools">
-        <span>AngularJS</span>
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> App to quiz students on Roman numerals.</li>
-        <li> Students convert Arabic numerals to Roman numerals and receive instant feedback.</li>
-        <li> The app tracks the student's history of correct and incorrect answers.</li>
-        <li> Includes teacher section with suggestions for classroom use in Latin or math class.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="http://www.kellylougheed.com/roman" target="_blank">Live Site</a>
-        <a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank">Github</a>
-      </p>
-    </div>
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/roman" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="AngularJS Roman numeral quiz app"></a>
-    </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h2>Participation</h2>
+        <p class="tools">
+          <span>Ruby on Rails</span>
+          <span>JavaScript</span>
+          <span>TDD</span>
+          <span>Bootstrap</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </p>
+        <ul>
+          <li> Gradebook app for high school teachers.</li>
+          <li> Teachers can input their rosters and track participation points for each student.</li>
+          <li> Teachers can record comments about students to use in report cards &amp; parent-teacher conferences.</li>
+          <li> Comments can be automatically emailed to students.</li>
+          <li> The app was built with TDD and has >95% test coverage. </li>
+        </ul>
+        <p class="proj-links">
+          <a href="http://participation.herokuapp.com" target="_blank">Live Site</a>
+          <a href="https://github.com/kellylougheed/participation" target="_blank">Github</a>
+        </p>
+      </div>
 
     </div>
 
     <div class="proj">
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.png" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <br/>
+        <h2>Roman Numeral Quiz</h2>
+        <p class="tools">
+          <span>AngularJS</span>
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </p>
+        <ul>
+          <li> App to quiz students on Roman numerals.</li>
+          <li> Students convert Arabic numerals to Roman numerals and receive instant feedback.</li>
+          <li> The app tracks the student's history of correct and incorrect answers.</li>
+          <li> Includes teacher section with suggestions for classroom use in Latin or math class.</li>
+        </ul>
+        <p class="proj-links">
+          <a href="http://www.kellylougheed.com/roman" target="_blank">Live Site</a>
+          <a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank">Github</a>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <a href="http://www.kellylougheed.com/roman" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="AngularJS Roman numeral quiz app"></a>
+      </div>
+
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>Cicero</h2>
-      <p class="tools">
-        <span>JavaScript</span>
-        <span>APIs</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> Italian-to-English dictionary in your browser window as a Chrome extension.</li>
-        <li> Consumes the <a href="https://glosbe.com/" target="_blank">Glosbe API</a> to provide translations and grammar help.</li>
-        <li> Originally built as an iOS app with Swift (code on <a href="https://github.com/kellylougheed/capisce" target="_blank">GitHub</a>).</li>
-        <li> Built to enable immersive reading for Italian language learners.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank">Web Store</a>
-        <a href="https://github.com/kellylougheed/cicero" target="_blank">Github</a>
-      </p>
-    </div>
+    <div class="proj">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.png" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <br/>
+        <h2>Cicero</h2>
+        <p class="tools">
+          <span>JavaScript</span>
+          <span>APIs</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </p>
+        <ul>
+          <li> Italian-to-English dictionary in your browser window as a Chrome extension.</li>
+          <li> Consumes the <a href="https://glosbe.com/" target="_blank">Glosbe API</a> to provide translations and grammar help.</li>
+          <li> Originally built as an iOS app with Swift (code on <a href="https://github.com/kellylougheed/capisce" target="_blank">GitHub</a>).</li>
+          <li> Built to enable immersive reading for Italian language learners.</li>
+        </ul>
+        <p class="proj-links">
+          <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank">Web Store</a>
+          <a href="https://github.com/kellylougheed/cicero" target="_blank">Github</a>
+        </p>
+      </div>
 
     </div>
     
     <div class="proj">
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>HIIT Timer</h2>
-      <p class="tools">
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> Customizable fitness timer that tracks intervals of activity and rest for HIIT workouts.</li>
-        <li> Color changes from cyan to pink depending on level of activity.</li>
-        <li> Includes pause and reset buttons.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="http://www.kellylougheed.com/hiit" target="_blank">Live Site</a>
-        <a href="https://github.com/kellylougheed/hiit-timer" target="_blank">Github</a>
-      </p>
-    </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <br/>
+        <h2>HIIT Timer</h2>
+        <p class="tools">
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </p>
+        <ul>
+          <li> Customizable fitness timer that tracks intervals of activity and rest for HIIT workouts.</li>
+          <li> Color changes from cyan to pink depending on level of activity.</li>
+          <li> Includes pause and reset buttons.</li>
+        </ul>
+        <p class="proj-links">
+          <a href="http://www.kellylougheed.com/hiit" target="_blank">Live Site</a>
+          <a href="https://github.com/kellylougheed/hiit-timer" target="_blank">Github</a>
+        </p>
+      </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
-    </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
+      </div>
 
     </div>
 
     <div class="proj">
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <a href="http://www.kellylougheed.com/author" target="_blank"><img src="http://www.kellylougheed.com/images/projects/author.png" class="responsive" alt="Kelly Lougheed author website"></a>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <br/>
+        <h2>Author Website</h2>
+        <p class="tools">
+          <span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </p>
+        <ul>
+          <li> Dynamic website to advertise young adult vampire novels.</li>
+          <li> CSS animations and image filters.</li>
+          <li> HTML for each book generated by vanilla JavaScript.</li>
+        </ul>
+        <p class="proj-links">
+          <a href="http://www.kellylougheed.com/author" target="_blank">Live Site</a>
+          <a href="https://github.com/kellylougheed/author" target="_blank">Github</a>
+        </p>
+      </div>
+
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <br/>
-      <h2>Teaching Portfolio</h2>
-      <p class="tools">
-        <span>PHP</span>
-        <span>Bootstrap</span>
-        <span>HTML</span>
-        <span>CSS</span>
-      </p>
-      <ul>
-        <li> Sample lessons and projects in Computer Science and Latin.</li>
-        <li> Narratives of my teaching experience and education in Computer Science and Latin.</li>
-        <li> Student feedback.</li>
-      </ul>
-      <p class="proj-links">
-        <a href="http://www.kellylougheed.com/teaching" target="_blank">Live Site</a>
-        <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">Github</a>
-      </p>
-    </div>
+    <div class="proj">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <br/>
+        <h2>Teaching Portfolio</h2>
+        <p class="tools">
+          <span>PHP</span>
+          <span>Bootstrap</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </p>
+        <ul>
+          <li> Sample lessons and projects in Computer Science and Latin.</li>
+          <li> Narratives of my teaching experience and education in Computer Science and Latin.</li>
+          <li> Student feedback.</li>
+        </ul>
+        <p class="proj-links">
+          <a href="http://www.kellylougheed.com/teaching" target="_blank">Live Site</a>
+          <a href="https://github.com/kellylougheed/teaching-portfolio" target="_blank">Github</a>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
+      </div>
 
     </div>
 
@@ -192,7 +219,7 @@
       I have professional experience with Python, JavaScript, PHP, and HTML/CSS, and have also worked with Ruby, Rails, Swift, C, and Java.
     </p>
     <p class="about">
-      I believe that computer science is a tool that can be used in any discipline. My personal computing projects center around education and language study, particularly Latin and Italian.
+      I believe that computer science is a tool that can be used in any discipline. My personal computing projects center around education, languages, and literature.
     </p>
   </div>
 </div>
