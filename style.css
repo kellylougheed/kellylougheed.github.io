@@ -12,7 +12,7 @@ body {
 }
 
 div.header {
-  background: url(images/backgrounds/goldengate.jpg); 
+  background: url(http://kellylougheed.com/images/backgrounds/goldengate.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -73,8 +73,7 @@ div.down {
 
 div.down a {
   color: #ff3333;
-  transition: color .5s;
-  -webkit-transition: color .5s;
+  transition: all.5s;
   border: none;
 }
 
@@ -82,6 +81,7 @@ div.down a:hover {
   color: #fff;
   cursor: pointer;
   background: none;
+  font-size: 1.5em;
 }
 
 p {
@@ -94,17 +94,10 @@ p.work {
   line-height: 25px;
 }
 
-p.about {
-  text-align: left;
-  line-height: 25px;
-  margin: 0 25px 25px 25px;
-}
-
 a.contact {
   font-size: 2em;
   color: #ff3333;
-  transition: color .5s;
-  -webkit-transition: color .5s;
+  transition: all.5s;
   text-shadow: 3px 3px rgba(0,0,0,.5);
   padding: 0 10px 0 10px;
   border: none;
@@ -123,6 +116,10 @@ div.container {
   align-items: flex-start;
 }
 
+div.white {
+  background: white;
+}
+
 div.container img {
     border: 1px solid #aaaaaa;
     box-shadow: 2px 2px 5px rgba(0,0,0,.5);
@@ -130,6 +127,7 @@ div.container img {
 
 div.container img:hover {
   box-shadow: 2px 2px 5px rgba(0,0,0,.9);
+  filter: saturate(200%);
 }
 
 div.container h2 {
@@ -138,6 +136,7 @@ div.container h2 {
 
 li {
   margin-bottom: 10px;
+  line-height: 25px;
 }
 
 div.proj {
@@ -146,7 +145,7 @@ div.proj {
 }
 
 div.proj:nth-child(even) {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 img#profile {
@@ -154,6 +153,7 @@ img#profile {
   border: none;
   border-radius: 10%;
   margin: 0 25px 25px 25px;
+  filter: none;
 }
 
 .responsive {
@@ -161,28 +161,34 @@ img#profile {
 }
 
 .tools span, .proj-links a {
-  padding: 6px;
+  padding: 10px;
   margin: 4px;
   line-height: 2rem;
   text-transform: uppercase;
   font-size: .8rem;
+  border-radius: 10px;
 }
 
 .tools span {
   background: #aaa;
   color: white;
-  border-radius: 5px;
+}
+
+.proj-links {
+  padding-top: 10px;
 }
 
 .proj-links a {
   border: 2px solid #333;
-  border-radius: 5px;
+  transition: all .5s;
+  font-size: 1.1em;
 }
 
 .proj-links a:hover {
   color: white;
-  background-color: #333;
-  border: 2px solid #333;
+  background-color: #aaa;
+  border: 2px solid #aaa;
+  font-size: 1.5em;
 }
 
 div#skills {
@@ -203,10 +209,7 @@ div#skills div {
 
 a {
   text-decoration: none;
-  transition: color .5s;
-  -webkit-transition: color .5s;
-  transition: background .5s;
-  -webkit-transition: background .5s;
+  transition: all .5s;
   color: #333;
   border-bottom: 2px solid #aaa;
 }
@@ -217,12 +220,22 @@ a:hover {
   border-bottom: 2px solid #aaa;
 }
 
+p.info, p.info2 {
+  text-align: justify;
+  line-height: 30px;
+}
+
+p.info2 {
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
 a img {
 	border-bottom: none;
 }
 
 div.footer {
-  background-color: #ff3333;
+  background-color: #666;
   height: 40px;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -237,10 +250,6 @@ div.footer a {
   text-decoration: none;
   color: white;
   border: none;
-}
-
-div.footer a:hover {
-  border-bottom: 1px solid white;
 }
 
 /********** Large devices **********/
