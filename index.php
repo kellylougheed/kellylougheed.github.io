@@ -266,7 +266,7 @@ foreach ($skills as $name => $class) {
 
 <div class="footer">
   <p>
-    Made with <a href="http://www.philzcoffee.com/" target="_blank"><i class="fa fa-coffee" aria-hidden="true"></i></a> and <a href="https://www.google.com/search?q=weather%20los%20angeles%20ca" target="_blank"><i class="fa fa-sun-o" aria-hidden="true"></i></a> by Kelly. © Kelly Lougheed 2016-17. All rights reserved.
+    Made with <a href="http://www.philzcoffee.com/" target="_blank"><i class="fa fa-coffee" aria-hidden="true"></i></a> and <a href="https://www.google.com/search?q=weather%20los%20angeles%20ca" target="_blank"><i class="fa fa-sun-o" aria-hidden="true"></i></a> by Kelly. © Kelly Lougheed <?php echo date("Y"); ?>. All rights reserved.
     <a href="https://github.com/kellylougheed/portfolio" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a>
   </p>
 </div>
