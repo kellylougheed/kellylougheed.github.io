@@ -23,8 +23,7 @@
   <div class="header">
     <div class="intro">
       <h1>Kelly Lougheed</h1>
-      <h2>Software Developer | Educator</h2>
-      <p><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kellylougheed/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
+      <h2>Software Developer</h2>
     </div><!-- intro -->
     <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
   </div><!-- header -->
@@ -180,93 +179,9 @@
   </div><!-- container -->
 </div><!-- work -->
 
-  <div class="container white">
-
-    <h1>Books</h1>
-
-    <div class="proj">
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/author" target="_blank"><img src="http://www.kellylougheed.com/images/projects/author.png" class="responsive" alt="Kelly Lougheed author website"></a>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <p class="info">I write young adult novels about all-girls boarding schools and vampires, based on my own experience at an all-girls school (minus the vampires). My books were published by <a href="http://mundania.com/" target="_blank">Mundania Press</a> in 2009-2012, and they satirize contemporary YA paranormal stories.</p>
-        <p class="info">I built many early websites to advertise my books. This current website showcases my ability to implement <a href="https://github.com/kellylougheed/author/blob/master/script.js" target="_blank">CSS filters and animations with vanilla JavaScript</a>.</p>
-        <p class="proj-links">
-          <a href="http://www.kellylougheed.com/author" target="_blank">Author Website</a>
-        </p>
-      </div>
-
-    </div>
-  </div>
-
-  <h1>Teaching</h1>
-
-  <div class="container ">
-    <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/teaching" target="_blank"><img src="http://www.kellylougheed.com/images/projects/teaching.png" class="responsive" alt="Computer science and Latin teaching portfolio"></a>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <p class="info">I currently teach computer science and have also taught Latin to grades 6-12 in independent schools. I love crafting innovative and engaging lessons to teach others about subjects that have brought me joy.</p>
-        <p class="info">My teaching portfolio highlights my relevant experience, education, and sample lessons. It was built with PHP and Bootstrap.</p>
-        <p class="proj-links">
-          <a href="http://www.kellylougheed.com/teaching" target="_blank">Teaching Portfolio</a>
-        </p>
-      </div>
-
-    </div>
-  </div>
-
-<div class="white"><br/>
-<h1>About</h1>
-<div class="container">
-  <div class="col-lg-3 col-md-4 col-sm-12">
-    <img src="http://www.kellylougheed.com/images/profile.jpg" class="responsive" id="profile" alt="Kelly Lougheed"/>
-  </div>
-  <div class="col-lg-9 col-md-8 col-sm-12">
-    <p class="info2">
-    	I'm a computer science teacher in Los Angeles, CA with previous careers as a software developer, Latin teacher, and author. A Classics graduate of Brown University, I will complete certificates in Software Development (UC Berkeley) and Computer Science Education (College of St. Scholastica) in summer 2018.</p>
-    <p class="info2">
-      I believe that computer science is a tool that can be used in any discipline. My personal computing projects center around education, languages, and literature.</p>
-    <p class="info2">
-      I've worked professionally with JavaScript, Python, PHP, and HTML/CSS, and also have experience with Ruby, Rails, Swift, C, and Java.</p>
-    </p>
-  </div>
-</div>
-
-<?php 
-$skills = array(
-  "JavaScript" => "devicon-javascript-plain",
-  "Ruby" => "devicon-ruby-plain",
-  "Rails" => "devicon-rails-plain",
-  "Python" => "devicon-python-plain",
-  "Java" => "devicon-java-plain",
-  "C/C++" => "devicon-cplusplus-plain",
-  "Swift" => "devicon-swift-plain",
-  "PHP" => "devicon-php-plain",
-  "HTML5" => "devicon-html5-plain-wordmark",
-  "CSS3" => "devicon-css3-plain-wordmark",
-  );
-?>
-
-<div id="skills" class="container">
-<?php
-foreach ($skills as $name => $class) {
-  echo '<div class="col-lg-2 col-md-2 col-sm-3">';
-  echo '<i class="' . $class . '"></i><br/><br/>';
-  echo $name;
-  echo '</div>';
-}
-?>
-</div>
-
 <div class="footer">
   <p>
-    Made with <a href="http://www.philzcoffee.com/" target="_blank"><i class="fa fa-coffee" aria-hidden="true"></i></a> and <a href="https://www.google.com/search?q=weather%20los%20angeles%20ca" target="_blank"><i class="fa fa-sun-o" aria-hidden="true"></i></a> by Kelly. © Kelly Lougheed <?php echo date("Y"); ?>. All rights reserved.
+    © Kelly Lougheed <?php echo date("Y"); ?>. All rights reserved.
     <a href="https://github.com/kellylougheed/portfolio" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a>
   </p>
 </div>
@@ -274,6 +189,6 @@ foreach ($skills as $name => $class) {
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="animatescroll.js"></script>
+        <script src="http://kellylougheed.com/animatescroll.js"></script>
 </body>
 </html>
