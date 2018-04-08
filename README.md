@@ -7,5 +7,5 @@
 <ul>
 <li> Software projects displayed using CSS flexbox.</li><br/>
 
-<li> Includes aesthetic features such as Google Fonts, CSS transitions, and icons from Font Awesome and Devicon.</li><br/>
+<li> Includes aesthetic features such as Google Fonts, CSS transitions, and icons from Font Awesome.</li><br/>
 </ul>
