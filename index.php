@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -15,175 +16,36 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://use.fontawesome.com/ee14bb1f23.js"></script>
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="header">
     <div class="intro">
       <h1>Kelly Lougheed</h1>
-      <h2>Software Developer</h2>
+      <h2>computer science ed. digital arts + humanities.</h2>
+      <p id="icons"><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kellylougheed/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
-    <div class="down"><a onclick="$('#work').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+    <div class="down"><a onclick="$('#about').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
   </div><!-- header -->
-<div id="work">
-  <h1>Work</h1>
+<div id="about">
+  <h1>About</h1>
 
-  <div class="container"> 
+  <p>I'm a computer science teacher in Los Angeles, CA with experience teaching all levels of CS. I hold certificates &amp; degrees in Computer Science Education, Software Development &amp; Programming, and Classics (Latin &amp; Greek). My work includes integrating computer science into art, math, and the humanities.</p>
 
-    <div class="proj">
+  <p><a href="http://kellylougheed.com/teaching/" target="_blank" id="teaching">Teaching Portfolio</a></p>
 
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="http://participation.herokuapp.com" target="_blank"><img src="http://www.kellylougheed.com/images/projects/participation.png" class="responsive" alt="Rails student participation gradebook app for teachers"></a>
-      </div>
+  <p>Beyond the classroom, I have written technical tutorials about topics such as <a href="https://medium.com/@kellylougheed/hogwarts-sorting-hat-with-python-ae1ab98a3c6b" target="_blank">Python</a>, <a href="https://medium.com/@kellylougheed/fortune-teller-with-java-classes-75069ac39591" target="_blank">Java</a>, <a href="https://medium.com/@kellylougheed/make-a-webvr-ball-pit-with-a-frame-physics-bce2d40557d7" target="_blank">virtual reality</a>, <a href="https://medium.com/@kellylougheed/rainbow-paintbrush-in-p5-js-e452d5540b25" target="_blank">creative coding</a>, and <a href="https://medium.com/@kellylougheed/coding-english-lit-natural-language-processing-in-python-ba8ebae4dde3" target="_blank">natural language processing</a>. I have also written about <a href="https://blog.upperlinecode.com/promoting-collaboration-in-a-computer-science-classroom-f67eb75beb1b" target="_blank">CS pedagogy</a> and developed apps that help <a href="https://kellylougheed.github.io/driver/" target="_blank">facilitate pair programming</a> and <a href="https://kellylougheed.github.io/binary/" target="_blank">quiz students on binary numbers</a>.</p>
 
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <h2>Participation</h2>
-        <p class="tools">
-          <span>Ruby on Rails</span>
-          <span>JavaScript</span>
-          <span>TDD</span>
-          <span>Bootstrap</span>
-          <span>HTML</span>
-          <span>CSS</span>
-        </p>
-        <ul>
-          <li> Gradebook app for high school teachers.</li>
-          <li> Teachers can input their rosters and track participation points for each student.</li>
-          <li> Teachers can record comments about students to use in report cards &amp; parent-teacher conferences.</li>
-          <li> Comments can be automatically emailed to students.</li>
-          <li> The app was built with test-driven development and has >95% test coverage. </li>
-        </ul>
-        <p class="proj-links">
-          <a href="http://participation.herokuapp.com" target="_blank">Live Site</a>
-          <a href="https://github.com/kellylougheed/participation" target="_blank">Github</a>
-        </p>
-      </div>
-
-    </div>
-
-    <div class="proj">
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <br/>
-        <h2>Roman Numeral Quiz</h2>
-        <p class="tools">
-          <span>AngularJS</span>
-          <span>JavaScript</span>
-          <span>HTML</span>
-          <span>CSS</span>
-        </p>
-        <ul>
-          <li> App to quiz students on Roman numerals.</li>
-          <li> Students convert Arabic numerals to Roman numerals and receive instant feedback.</li>
-          <li> The app tracks the student's history of correct and incorrect answers.</li>
-          <li> Includes teacher section with suggestions for classroom use in Latin or math class.</li>
-        </ul>
-        <p class="proj-links">
-          <a href="http://www.kellylougheed.com/roman" target="_blank">Live Site</a>
-          <a href="https://github.com/kellylougheed/roman-numeral-quiz" target="_blank">Github</a>
-        </p>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/roman" target="_blank"><img src="http://www.kellylougheed.com/images/projects/romannumeral.png" class="responsive" alt="AngularJS Roman numeral quiz app"></a>
-      </div>
-
-    </div>
-
-    <div class="proj">
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank"><img src="http://www.kellylougheed.com/images/projects/cicero.png" class="responsive" alt="Italian-to-English dictionary Google Chrome extension"></a>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <br/>
-        <h2>Cicero</h2>
-        <p class="tools">
-          <span>JavaScript</span>
-          <span>APIs</span>
-          <span>HTML</span>
-          <span>CSS</span>
-        </p>
-        <ul>
-          <li> Italian-to-English dictionary in your browser window as a Chrome extension.</li>
-          <li> Consumes the <a href="https://glosbe.com/" target="_blank">Glosbe API</a> to provide translations and grammar help.</li>
-          <li> Originally built as an iOS app with Swift (code on <a href="https://github.com/kellylougheed/capisce" target="_blank">GitHub</a>).</li>
-          <li> Built to enable immersive reading for Italian language learners.</li>
-        </ul>
-        <p class="proj-links">
-          <a href="https://chrome.google.com/webstore/detail/cicero-an-italian-to-engl/icmiokglnmhdllhbkcmpclfdhgodjgkc?hl=en" target="_blank">Web Store</a>
-          <a href="https://github.com/kellylougheed/cicero" target="_blank">Github</a>
-        </p>
-      </div>
-
-    </div>
-
-    <div class="proj">
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <br/>
-        <h2>German Word Maker</h2>
-        <p class="tools">
-          <span>JavaScript</span>
-          <span>APIs</span>
-          <span>HTML</span>
-          <span>CSS</span>
-        </p>
-        <ul>
-          <li> Takes in several English words to form German compound word.</li>
-          <li> Consumes the <a href="https://glosbe.com/" target="_blank">Glosbe API</a> to generate individual German words.</li>
-          <li> Users can tweet new words with English equivalents.</li>
-        </ul>
-        <p class="proj-links">
-          <a href="http://www.kellylougheed.com/german" target="_blank">Live Site</a>
-          <a href="https://github.com/kellylougheed/german-word-maker" target="_blank">Github</a>
-        </p>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/german" target="_blank"><img src="http://www.kellylougheed.com/images/projects/german.png" class="responsive" alt="German Word Maker"></a>
-      </div>
-
-    </div>
-    
-    <div class="proj">
-
-    <div class="col-lg-6 col-md-6 col-sm-12">
-        <a href="http://www.kellylougheed.com/hiit" target="_blank"><img src="http://www.kellylougheed.com/images/projects/hiit.gif" class="responsive" alt="JavaScript HIIT timer"></a>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <br/>
-        <h2>HIIT Timer</h2>
-        <p class="tools">
-          <span>JavaScript</span>
-          <span>HTML</span>
-          <span>CSS</span>
-        </p>
-        <ul>
-          <li> Customizable fitness timer that tracks intervals of activity and rest for HIIT workouts.</li>
-          <li> Color changes from cyan to pink depending on level of activity.</li>
-          <li> Includes pause and reset buttons.</li>
-        </ul>
-        <p class="proj-links">
-          <a href="http://www.kellylougheed.com/hiit" target="_blank">Live Site</a>
-          <a href="https://github.com/kellylougheed/hiit-timer" target="_blank">Github</a>
-        </p>
-      </div>
-
-    </div>
-
-  </div><!-- container -->
-</div><!-- work -->
+  <p>My personal coding projects are usually inspired by my love for Italy, such as my <a href="http://italy-quiz.glitch.me/" target="_blank">Italian Sporcle quiz</a> and <a href="https://css-colosseum.glitch.me/" target="_blank">CSS Colosseum</a>.</p>
+  
+</div><!-- about -->
 
 <div class="footer">
-  <p>
-    © Kelly Lougheed <?php echo date("Y"); ?>. All rights reserved.
+  
+    © Kelly Lougheed <?php echo date("Y") ?>. All rights reserved.
     <a href="https://github.com/kellylougheed/portfolio" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a>
-  </p>
+  
 </div>
 
 </div>
@@ -191,4 +53,3 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://kellylougheed.com/animatescroll.js"></script>
 </body>
-</html>
