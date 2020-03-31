@@ -5,14 +5,14 @@
 body {
   color: #333;
   background-color: #eee;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Special Elite', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   margin: 0;
 }
 
 div.header {
-  background: url(http://kellylougheed.com/images/backgrounds/goldengate.jpg); 
+  background: url(http://kellylougheed.com/images/backgrounds/sang.jpg); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -26,41 +26,47 @@ div.intro {
   padding-top: 50px;
   width: 100%;
   text-align: center;
+  color: white;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Special Elite';
 }
 
 h1, h2 {
-  text-align: center;
-  font-weight: 100;
   margin-bottom: 0;
-  text-transform: none;
 }
 
 h1 {
-  font-size: 5em;
-  color: #333;
-  font-family: 'Lobster';
-}
-
-h2 {
-	font-family: 'Oswald';
-	text-transform: uppercase;
-}
-
-div.intro h1, div.intro h2 {
-  color: #ff3333;
+  font-size: 3em;
 }
 
 div.intro h1 {
-  font-size: 6em;
-  text-shadow: 3px 3px rgba(0,0,0,.7);
-  font-family: 'Lobster';
-  text-transform: none;
+  font-size: 5em;
+  text-shadow: 4px 4px rgba(0,0,0,.7);
 }
 
 div.intro h2 {
-  font-size: 2.25em;
+  font-size: 2em;
   line-height: 35px;
-  text-shadow: 2px 2px rgba(0,0,0,.7);
+  text-shadow: 3px 3px rgba(0,0,0,.7);
+}
+
+a.contact {
+  font-size: 2em;
+  color: white;
+  transition: all .5s;
+  text-shadow: 3px 3px rgba(0,0,0,.5);
+  padding: 0 10px 0 10px;
+  border: none;
+  background: none;
+}
+
+a.contact:hover {
+  color: #4EBF69;
+  border: none;
+  background: none;
 }
 
 div.down {
@@ -69,166 +75,69 @@ div.down {
   bottom: 50px;
   position: absolute;
   text-shadow: 1px 2px rgba(0,0,0,.5);
-  font-size: 4em;
+  font-size: 6em;
 }
 
 div.down a {
-  color: #ff3333;
+  color: white;
   transition: all.5s;
   border: none;
+  background: none;
 }
 
 div.down a:hover {
-  color: #fff;
+  color: #4EBF69;
   cursor: pointer;
   background: none;
   font-size: 1.5em;
 }
 
-p {
-	text-align: center;
-}
-
-p.work {
+div#about {
   width: 80%;
   margin: 0 auto;
-  line-height: 25px;
 }
 
-div.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-div.white {
-  background: white;
-}
-
-div.container img {
-    border: 1px solid #aaaaaa;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
-}
-
-div.container img:hover {
-  box-shadow: 2px 2px 5px rgba(0,0,0,.9);
-  filter: saturate(200%);
-}
-
-div.container h2 {
-  margin-top: 0;
-}
-
-li {
+p {
+	text-align: center;
   margin-bottom: 10px;
-  line-height: 25px;
-}
-
-div.proj {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-div.proj:nth-child(even) {
-  background-color: #fff;
-}
-
-img#profile {
-  box-shadow: none;
-  border: none;
-  border-radius: 10%;
-  margin: 0 25px 25px 25px;
-  filter: none;
-}
-
-.responsive {
-  width: 100%;
-}
-
-.tools span, .proj-links a {
-  padding: 7px 10px;
-  margin: 4px;
-  line-height: 2rem;
-  text-transform: uppercase;
-  font-size: .8rem;
-  border-radius: 10px;
-}
-
-.tools span {
-  background: #aaa;
-  color: white;
-}
-
-.proj-links {
-  padding-top: 10px;
-}
-
-.proj-links a {
-  border: 2px solid #333;
-  transition: all .5s;
-  font-size: 1.1em;
-}
-
-.proj-links a:hover {
-  color: white;
-  background-color: #aaa;
-  border: 2px solid #aaa;
-  font-size: 1.5em;
-}
-
-div#skills {
-  max-width: 70%;
-  margin: 0 auto;
-  font-size: .8em;
-  text-transform: uppercase;
-}
-
-div#skills i {
-  font-size: 3.5em;
-}
-
-div#skills div {
-  text-align: center;
-  color: #707070;
+  line-height: 50px;
+  font-size: 1.4em;
+  margin-bottom: 50px;
 }
 
 a {
   text-decoration: none;
   transition: all .5s;
   color: #333;
-  border-bottom: 2px solid #aaa;
+  padding: 3px;
+  background: none;
+  border-bottom: 3px solid hotpink;
 }
 
 a:hover {
   color: white;
-  background: #aaa;
-  border-bottom: 2px solid #aaa;
+  background: hotpink;
+  border-bottom: 3px solid rgba(255,255,255,0);
 }
 
-p.info, p.info2 {
-  text-align: justify;
-  line-height: 30px;
+#teaching {
+  padding: 20px;
+  background: #4EBF69;
+  border-radius: 25px;
+  color: white;
+  border: none;
 }
 
-p.info2 {
-  width: 90%;
-  margin: 0 auto 20px auto;
-}
-
-a img {
-	border-bottom: none;
+#teaching:hover {
+  font-size: 1.2em;
+  cursor: pointer;
 }
 
 div.footer {
   background-color: #666;
   height: 40px;
   color: white;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-}
-
-div.footer p {
+  text-align: center;
   padding-top: 10px;
 }
 
@@ -236,166 +145,44 @@ div.footer a {
   text-decoration: none;
   color: white;
   border: none;
-}
-
-/********** Large devices **********/
-@media (min-width: 992px) {
-  
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: none;
-    padding: 10px;
-    vertical-align: top;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: none;
-    padding: 10px;
-    vertical-align: top;
-  }
- 
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
+  background: none;
 }
 
 /********** Small devices **********/
 @media (max-width: 767px) {
 
-  div.intro h1, h1 {
+  div.intro {
+    padding-top: 20px;
+  }
+
+  div.intro h1 {
     font-size: 3em;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
   div.intro h2 {
-    font-size: 1.1em;
+    font-size: 1.25em;
+    text-shadow: 2px 2px rgba(0,0,0,.7);
   }
 
-  img#profile {
-    margin: 0;
-  }
-
-  div#skills {
-    max-width: 100%;
+  p {
+    font-size: 1.25em;
   }
 
   div.footer {
     height: 80px;
   }
 
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-    border: none;
-    padding: 10px;
-    vertical-align: top;
+  a.contact {
+    font-size: 1.5em;
   }
-  .col-sm-1 {
-    width: 8.33%;
-  }
-  .col-sm-2 {
-    width: 16.66%;
-  }
-  .col-sm-3 {
-    width: 25%;
-  }
-  .col-sm-4 {
-    width: 33.33%;
-  }
-  .col-sm-5 {
-    width: 41.66%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-7 {
-    width: 58.33%;
-  }
-  .col-sm-8 {
-    width: 66.66%;
-  }
-  .col-sm-9 {
-    width: 74.99%;
-  }
-  .col-sm-10 {
-    width: 83.33%;
-  }
-  .col-sm-11 {
-    width: 91.66%;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
+
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
