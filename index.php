@@ -23,22 +23,14 @@
   <div class="header">
     <div class="intro">
       <h1>Kelly Lougheed</h1>
-      <h2>computer science ed. digital arts + humanities.</h2>
+      
+      <p>Hi! I'm a computer science teacher in Los Angeles, CA. I have an M.S. in Computer Science and a B.A. in Latin & Greek. In my previous lives, I have been a web developer, physics teacher, and Latin teacher. In college, I published a series of YA vampire novels that are now out of print. My hobbies include running book clubs and running marathons.</p>
+
       <p id="icons"><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kellylougheed/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
     </div><!-- intro -->
-    <div class="down"><a onclick="$('#about').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+    <!-- <div class="down"><a onclick="$('#about').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div> -->
   </div><!-- header -->
 <div id="about">
-  <h1>About</h1>
-
-  <p>I'm a computer science teacher in Los Angeles, CA with experience teaching all levels of CS. I hold certificates &amp; degrees in Computer Science Education, Software Development &amp; Programming, and Classics (Latin &amp; Greek). My work includes integrating computer science into art, math, and the humanities.</p>
-
-  <p><a href="http://kellylougheed.com/teaching/" target="_blank" id="teaching">Teaching Portfolio</a></p>
-
-  <p>Beyond the classroom, I have written technical tutorials about topics such as <a href="https://medium.com/@kellylougheed/hogwarts-sorting-hat-with-python-ae1ab98a3c6b" target="_blank">Python</a>, <a href="https://medium.com/@kellylougheed/fortune-teller-with-java-classes-75069ac39591" target="_blank">Java</a>, <a href="https://medium.com/@kellylougheed/make-a-webvr-ball-pit-with-a-frame-physics-bce2d40557d7" target="_blank">virtual reality</a>, <a href="https://medium.com/@kellylougheed/rainbow-paintbrush-in-p5-js-e452d5540b25" target="_blank">creative coding</a>, and <a href="https://medium.com/@kellylougheed/coding-english-lit-natural-language-processing-in-python-ba8ebae4dde3" target="_blank">natural language processing</a>. I have also written about <a href="https://blog.upperlinecode.com/promoting-collaboration-in-a-computer-science-classroom-f67eb75beb1b" target="_blank">CS pedagogy</a> and developed apps that help <a href="https://kellylougheed.github.io/driver/" target="_blank">facilitate pair programming</a> and <a href="https://kellylougheed.github.io/binary/" target="_blank">quiz students on binary numbers</a>.</p>
-
-  <p>My personal coding projects are usually inspired by my love for Italy, such as my <a href="http://italy-quiz.glitch.me/" target="_blank">Italian Sporcle quiz</a> and <a href="https://css-colosseum.glitch.me/" target="_blank">CSS Colosseum</a>.</p>
-  
 </div><!-- about -->
 
 <div class="footer">
