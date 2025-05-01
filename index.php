@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://use.fontawesome.com/ee14bb1f23.js"></script>
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=DM+Serif+Text' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="header">
