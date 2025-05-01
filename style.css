@@ -42,6 +42,7 @@ h1, h2 {
 h1 {
   font-size: 3em;
   font-family: "Reenie Beanie";
+  color: #C70700;
 }
 
 div.intro h1 {
@@ -66,7 +67,7 @@ a.contact {
 }
 
 a.contact:hover {
-  color: #4EBF69;
+  color: #C70700;
   border: none;
   background: none;
 }
@@ -88,7 +89,7 @@ div.down a {
 }
 
 div.down a:hover {
-  color: #4EBF69;
+  color: #C70700;
   cursor: pointer;
   background: none;
   font-size: 1.5em;

@@ -31,7 +31,7 @@
 <div class="footer">
   
     © Kelly Lougheed <?php echo date("Y") ?>. All rights reserved.
-    <a href="https://github.com/kellylougheed/portfolio" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a>
+    <a href="https://github.com/kellylougheed/kellylougheed.github.io" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a>
   
 </div>
 
