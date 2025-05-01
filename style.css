@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 div.intro h1 {
@@ -52,6 +52,10 @@ div.intro h2 {
   font-size: 2em;
   line-height: 35px;
   text-shadow: 3px 3px rgba(0,0,0,.7);
+}
+
+div.intro p {
+  font-size: 0.9em;
 }
 
 a.contact {
@@ -156,21 +160,13 @@ div.footer a {
     padding-top: 20px;
   }
 
-  div.intro h1 {
-    font-size: 3em;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-
   div.intro h2 {
     font-size: 1.25em;
     text-shadow: 2px 2px rgba(0,0,0,.7);
   }
 
   p {
-    font-size: 1.25em;
+    font-size: 0.9em;
   }
 
   div.footer {
