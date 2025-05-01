@@ -4,11 +4,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-  <!-- Open Graph tags for LinkedIn sharing -->
-  <meta property="og:title" content="Portfolio Website" />
-  <meta property="og:description" content="Software and teaching portfolio of Kelly Lougheed" />
-  <meta property="og:url" content="http://www.kellylougheed.com" />
-  <meta property="og:image" content="http://www.kellylougheed.com/images/projects/participation.png" />
   <title>Kelly Lougheed</title>
   <!-- CSS -->
   <link href="style.css" rel="stylesheet" type="text/css">
@@ -16,8 +11,7 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://use.fontawesome.com/ee14bb1f23.js"></script>
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=DM+Serif+Text' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div class="header">

@@ -5,14 +5,14 @@
 body {
   color: #333;
   background-color: #eee;
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'DM Serif Text', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   margin: 0;
 }
 
 div.header {
-  background: url(http://kellylougheed.com/images/backgrounds/sang.jpg); 
+  background: url(IMG_5084.heic); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -24,7 +24,8 @@ div.header {
 
 div.intro {
   padding-top: 50px;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
   color: white;
 }
