@@ -12,7 +12,7 @@ body {
 }
 
 div.header {
-  background: url("http://kellylougheed.com/images/backgrounds/santamonica.jpg"); 
+  background: url("https://kellylougheed.com/images/backgrounds/santamonica.jpg"); 
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -41,7 +41,7 @@ h1, h2 {
 
 h1 {
   font-size: 3em;
-  font-family: "Reenie Beanie";
+  font-family: "Sacramento";
   color: #C70700;
 }
 
