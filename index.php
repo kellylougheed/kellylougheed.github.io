@@ -20,7 +20,7 @@
     <div class="intro">
       <h1>Kelly Lougheed</h1>
       
-      <p>Hi! I'm a computer science teacher in Los Angeles, CA. I have an M.S. in Computer Science and an M.Ed. in Computer Science Education.</p>
+      <p>Hi! I'm a computer science teacher in Los Angeles, CA.</p> <p>I have an M.S. in Computer Science and an M.Ed. in Computer Science Education.</p>
 
       <p>Check out my projects for education: <a href="https://kellylougheed.github.io/driver/" target="_blank">a website to choose who drives</a>, a <a href="https://kellylougheed.github.io/binary/" target="_blank">binary practice game</a>, or a <a href="https://kellylougheed.github.io/nibbles/" target="_blank">nibbles practice game</a>.</p>
 
