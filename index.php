@@ -20,9 +20,10 @@
     <div class="intro">
       <h1>Kelly Lougheed</h1>
       
-      <p>Hi! I'm a computer science teacher in Los Angeles, CA. I have an M.S. in Computer Science and a B.A. in Latin & Greek. In my previous lives, I have been a web developer, physics teacher, and Latin teacher. In college, I published a series of YA vampire novels that are now out of print. My hobbies include running book clubs and running marathons.</p>
+      <p>Hi! I'm a computer science teacher in Los Angeles, CA. I have an M.S. in Computer Science and an M.Ed. in Computer Science Education.</p>
 
-      <p id="icons"><a class="contact" href="https://medium.com/@kellylougheed" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/kellylougheed" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="https://www.linkedin.com/in/kellylougheed/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="http://www.twitter.com/kellylougheed" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a class="contact" href="mailto:hello@kellylougheed.com?Subject=Hello"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></p>
+      <p>Check out my projects for education: <a href="https://kellylougheed.github.io/driver/" target="_blank">a website to choose who drives</a>, a <a href="https://kellylougheed.github.io/binary/" target="_blank">binary practice game</a>, or a <a href="https://kellylougheed.github.io/nibbles/" target="_blank">nibbles practice game</a>.</p>
+
     </div><!-- intro -->
     <!-- <div class="down"><a onclick="$('#about').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div> -->
   </div><!-- header -->

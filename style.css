@@ -112,16 +112,14 @@ p {
 a {
   text-decoration: none;
   transition: all .5s;
-  color: #333;
-  padding: 3px;
+  color: #aaa;
   background: none;
-  border-bottom: 3px solid hotpink;
+  border-bottom: 1px dashed #aaa;
 }
 
 a:hover {
   color: white;
-  background: hotpink;
-  border-bottom: 3px solid rgba(255,255,255,0);
+  border-bottom: 1px solid white;
 }
 
 #teaching {
