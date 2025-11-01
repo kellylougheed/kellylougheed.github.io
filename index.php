@@ -24,6 +24,7 @@
 
       <p>Check out my projects for education: <a href="https://kellylougheed.github.io/driver/" target="_blank">a website to choose who drives</a>, a <a href="https://kellylougheed.github.io/binary/" target="_blank">binary practice game</a>, or a <a href="https://kellylougheed.github.io/nibbles/" target="_blank">nibbles practice game</a>.</p>
 
+      <p>You can reach me via email, my first and last name at gmail.</p>
     </div><!-- intro -->
     <!-- <div class="down"><a onclick="$('#about').animatescroll();"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div> -->
   </div><!-- header -->
